@@ -1,0 +1,1043 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "about": "概要",
+    "contact": "お問い合わせ",
+    "backToHome": "ホームに戻る",
+    "settings": "設定",
+    "title": "ColorMagic",
+    "generator": "ジェネレーター",
+    "random": "ランダム",
+    "fromImage": "画像から",
+    "mixer": "ミキサー",
+    "contrast": "コントラスト",
+    "login": "ログイン"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラー",
+    "success": "成功",
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "save": "保存",
+    "delete": "削除",
+    "edit": "編集",
+    "create": "作成",
+    "upload": "アップロード",
+    "download": "ダウンロード",
+    "free": "無料",
+    "paid": "有料",
+    "comingSoon": "近日公開",
+    "underDevelopment": "開発中",
+    "language": "言語",
+    "reset": "リセット",
+    "copy": "コピー",
+    "copied": "コピーしました！",
+    "generating": "生成中...",
+    "generated": "生成完了",
+    "failed": "失敗",
+    "search": "検索",
+    "back": "戻る"
+  },
+  "breadcrumb": {
+    "generator": "カラージェネレーター",
+    "explore": "探索"
+  },
+  "page": {
+    "title": "ダークカラーパレット",
+    "subtitle": "エレガントなダークカラーパレットで洗練されたデザインを作成。モダンでプレミアムな美学に最適な豊かで深いトーンを発見！",
+    "inputPlaceholder": "気分を設定するキーワード、シーンの説明、または抽象的なインスピレーションを入力",
+    "generate": "カラーパレットを生成",
+    "paletteTitle": "{{name}}",
+    "brightness": "明度",
+    "saturation": "彩度",
+    "warmth": "暖かさ",
+    "download": "パレットをエクスポート",
+    "landscape": "横向き",
+    "square": "正方形",
+    "css": "CSSクラス",
+    "linear": "線形グラデーション",
+    "radial": "放射状グラデーション"
+  },
+  "colorcraft": {
+    "title": "ColorMagic",
+    "subtitle": "ダークカラーパレット",
+    "description": "エレガントなダークカラーパレットを発見し、豊かで深みのある\nトーンで洗練されたモダンなデザインを作成！\n完全無料！",
+    "features": {
+      "aiPowered": {
+        "title": "AI駆動",
+        "description": "高度なアルゴリズムが魅力的な色の組み合わせを作成"
+      },
+      "instantResults": {
+        "title": "瞬時の結果",
+        "description": "秒単位で美しいパレットを生成"
+      },
+      "multipleFormats": {
+        "title": "複数のフォーマット",
+        "description": "あらゆるプロジェクトに対応する様々なフォーマットでエクスポート"
+      }
+    },
+    "navigation": {
+      "backToGenerator": "ジェネレーターに戻る",
+      "color01": "ダークカラーパレット",
+      "color02": "カラーネームファインダー",
+
+      "color04": "カラー解析",
+      "color05": "高度なツール"
+    },
+    "adjust": {
+      "title": "パレットを調整",
+      "resetToOriginal": "元に戻す",
+      "save": "保存",
+      "saving": "保存中...",
+      "saved": "保存しました！",
+      "error": "エラー",
+      "brightness": "明度",
+      "saturation": "彩度",
+      "warmth": "暖かさ",
+      "dark": "暗い",
+      "original": "オリジナル",
+      "bright": "明るい",
+      "gray": "グレー",
+      "vivid": "鮮やか",
+      "cool": "クール",
+      "warm": "暖かい",
+      "modified": "変更済み",
+      "hasUnsavedChanges": "保存されていない変更があります。「保存」をクリックして調整を保存してください。"
+    },
+    "export": {
+      "title": "パレットをエクスポート",
+      "landscape": "横向き",
+      "portrait": "縦向き",
+      "square": "正方形",
+      "codeExport": "コードエクスポート",
+      "cssClasses": "CSSクラス",
+      "linearGradient": "線形グラデーション",
+      "radialGradient": "放射状グラデーション"
+    },
+    "colors": {
+      "copyHex": "HEXをコピー",
+      "copied": "コピーしました！"
+    },
+    "status": {
+      "paletteGeneratedSuccessfully": "✨ パレットが正常に生成されました！",
+      "redirectingToResults": "結果にリダイレクト中...",
+      "generationFailed": "生成に失敗しました",
+      "noPaletteFound": "パレットが見つかりません",
+      "goBack": "戻る"
+    },
+    "examples": {
+      "title": "これらの例を試してみてください：",
+      "oceanSunset": "真夜中の海",
+      "forestMorning": "ダークフォレスト",
+      "cityLights": "ネオンナイト",
+      "vintageCoffee": "リッチエスプレッソ",
+      "modernMinimalist": "エリートブラック"
+    },
+    "placeholders": {
+      "imageAnalysis": {
+        "title": "カラーネームファインダー",
+        "description": "あらゆる色の名前を識別・検索"
+      },
+      "brandColors": {
+        "title": "ブランドカラー",
+        "description": "あなたのブランドのためのプロフェッショナルなカラースキームを作成"
+      },
+      "colorAnalysis": {
+        "title": "カラー解析",
+        "description": "色の調和と効果の深い解析"
+      },
+      "advancedTools": {
+        "title": "高度なツール",
+        "description": "プロフェッショナルなカラー管理と調整ツール"
+      },
+      "comingSoon": "機能開発中、お楽しみに..."
+    }
+  },
+  "about": {
+    "title": "私たちについて",
+    "description": "ColorMagicは現代的なWeb アプリケーション開発フレームワークです",
+    "subtitle": "私たちは開発者に最高のWebアプリケーション開発ソリューションを提供することに専念しています",
+    "features": {
+      "title": "コア機能",
+      "responsive": "レスポンシブデザイン",
+      "modular": "モジュラーアーキテクチャ",
+      "international": "多言語サポート",
+      "plugin": "プラグインシステム"
+    },
+    "tech": {
+      "title": "技術スタック"
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "description": "ご質問やご提案がございましたら、お気軽にお問い合わせください",
+      "link": "メッセージを送信"
+    }
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "description": "お問い合わせフォームと連絡先情報",
+    "subtitle": "ご意見やご提案をお聞かせください",
+    "info": {
+      "title": "連絡先情報",
+      "email": "メールアドレス",
+      "address": "住所",
+      "addressValue": "東京都渋谷区、日本",
+      "phone": "電話番号"
+    },
+    "form": {
+      "title": "メッセージを送信",
+      "name": "お名前",
+      "email": "メールアドレス",
+      "subject": "件名",
+      "message": "メッセージ",
+      "send": "メッセージを送信",
+      "sending": "送信中..."
+    },
+    "success": "メッセージが正常に送信されました！できるだけ早くご返信いたします。"
+  },
+  "home": {
+    "title": "AIミームメーカー",
+    "subtitle": "スマートな漫画化、プロフェッショナル編集、バッチ処理をサポートするプロフェッショナルAI駆動ミーム作成プラットフォーム。パーソナライズされたミームを簡単に作成し、ソーシャルメディアとマーケティング効果を向上させましょう。",
+    "hero": {
+      "badge": "完全無料のミーム作成ツール",
+      "mainTitle": "無料で",
+      "highlightTitle": "ミーム作成",
+      "description": "完全無料のオンラインミーム作成ツール、テキスト、ステッカー、吹き出しなどの要素をサポート。AI漫画化などの高度な機能も利用可能。",
+      "startButton": "無料で作成開始",
+      "advancedButton": "AI高度機能を体験"
+    },
+    "stats": {
+      "users": "ユーザー数",
+      "images": "処理画像数", 
+      "rating": "ユーザー評価",
+      "templates": "テンプレート数"
+    },
+    "features": {
+      "title": "強力な機能特性",
+      "subtitle": "ミーム作成のニーズにワンストップソリューション",
+      "items": {
+        "freeMemeCreation": {
+          "title": "無料ミーム作成",
+          "description": "完全無料のミーム作成ツール、テキスト、ステッカー、吹き出しなどの多様な要素をサポート、無制限使用"
+        },
+        "professionalEditing": {
+          "title": "プロフェッショナル編集ツール",
+          "description": "豊富なテキスト、フィルター、特殊効果ツールで、より個性的でプロフェッショナルな創作を実現"
+        },
+        "multiFormatSupport": {
+          "title": "マルチフォーマット対応",
+          "description": "JPG、PNG、WebPなど多様なフォーマットに対応、スマート圧縮で最高品質を保証"
+        },
+        "fastProcessing": {
+          "title": "高速処理",
+          "description": "最適化された処理アルゴリズムで、秒単位で画像処理完了、創作効率を向上"
+        },
+        "aiCartoonization": {
+          "title": "AIスマート漫画化",
+          "description": "先進的な人工知能技術を使用して、ワンクリックで実際の写真を生き生きとした面白い漫画スタイルに変換"
+        },
+        "privacyProtection": {
+          "title": "プライバシー保護",
+          "description": "ローカル処理技術により、画像データの安全性を確保、プライバシーを完全保護"
+        }
+      }
+    },
+    "useCases": {
+      "title": "使用場面",
+      "subtitle": "どんなニーズでも対応可能",
+      "social": {
+        "title": "ソーシャルメディア",
+        "description": "楽しいアバターとミームを作成し、ソーシャル交流をより活発に"
+      },
+      "business": {
+        "title": "ビジネスマーケティング", 
+        "description": "目を引くマーケティング素材を作成し、ブランド伝達効果を向上"
+      },
+      "education": {
+        "title": "教育・研修",
+        "description": "生き生きとした教材を作成し、学習をより楽しく効果的に"
+      },
+      "personal": {
+        "title": "個人創作",
+        "description": "創造力を発揮し、ユニークな芸術作品を作成"
+      }
+    },
+    "testimonials": {
+      "title": "ユーザーの声",
+      "subtitle": "実際のユーザーの使用体験を聞く",
+      "items": [
+        {
+          "name": "田中太郎",
+          "role": "デザイナー",
+          "content": "このツールは素晴らしいです！AI漫画化効果が非常に自然で、仕事効率が大幅に向上しました。"
+        },
+        {
+          "name": "佐藤花子",
+          "role": "マーケティングディレクター",
+          "content": "私たちのチームは今このツールを使ってマーケティング素材を作成していますが、期待以上の効果です！"
+        },
+        {
+          "name": "山田一郎",
+          "role": "学生",
+          "content": "インターフェースが簡潔で使いやすく、機能が強力です。今まで見た中で最高のミーム作成ツールです。"
+        }
+      ]
+    },
+    "cta": {
+      "title": "創作の旅を始める準備はできましたか？",
+      "subtitle": "数十万のユーザーの創作コミュニティに参加し、AI技術で創造力を解放しましょう",
+      "startButton": "無料で作成開始",
+      "featuresButton": "高度機能を見る",
+      "features": [
+        "完全無料",
+        "登録不要", 
+        "プライバシー保護"
+      ]
+    }
+  },
+  "advanced": {
+    "title": "AI高度機能",
+    "subtitle": "プロフェッショナルAI駆動クリエイティブツール - プレミアム限定",
+    "description": "AI駆動の高度なミーム作成機能、スマートな漫画化、バッチ処理、プロフェッショナルテンプレートなどのプレミアム機能。",
+    "banner": {
+      "title": "⭐ AI高度機能ゾーン",
+      "subtitle": "以下の機能はプレミアムメンバーシップが必要で、AI駆動のプロフェッショナル体験を提供します",
+      "limitedOffer": "期間限定オファー",
+      "price": "¥690/月",
+      "upgrade": "今すぐアップグレード"
+    },
+    "developmentNotice": {
+      "title": "🚧 開発中",
+      "subtitle": "私たちはこれらのエキサイティングなAI機能を一生懸命開発しています",
+      "description": "AI高度機能は集中的に開発中です。スマートな漫画化、バッチ処理、プロフェッショナルテンプレートなどが含まれます。",
+      "features": [
+        "🎨 スマート漫画化 - 実際の写真を漫画スタイルに変換",
+        "🔄 バッチ処理 - 複数の画像を一度に処理",
+        "📚 プロフェッショナルテンプレートライブラリ - 大量の美しいテンプレート",
+        "🛠️ プロフェッショナルツール - 高度な編集機能"
+      ],
+      "timeline": "予定リリース: 2024年第2四半期",
+      "notification": "開発が完了次第、すぐにお知らせします！",
+      "backToWorkspace": "無料ワークスペースに戻る"
+    },
+    "developmentMode": {
+      "title": "🚀 開発環境モード",
+      "description": "開発環境でAIミームメーカーを実行しています。",
+      "subtitle": "本番環境の「開発中」ステータスに影響を与えることなく、AI高度機能の開発を続けることができます。",
+      "guide": {
+        "title": "💡 開発ガイド",
+        "howToContinue": {
+          "title": "🛠️ 開発を続ける方法:",
+          "steps": [
+            "AI機能コンポーネントをこのページにインポート",
+            "現在の開発モード表示を置き換え",
+            "多言語サポートのためにuseTranslationを使用",
+            "本番環境では自動的に「開発中」ステータスを表示"
+          ]
+        },
+        "configuration": {
+          "title": "⚙️ 設定オプション:",
+          "options": [
+            "frontend/src/config/development.ts を編集",
+            "enableAdvancedFeatures: false に設定して本番ステータスをテスト",
+            "APIエンドポイントとその他の開発オプションを設定",
+            "localhost、127.0.0.1、devドメインをサポート"
+          ]
+        },
+        "tip": "このページは開発環境でのみ表示されます。本番環境にデプロイすると、ユーザーは美しい「開発中」ステータスページを見ることになります。"
+      },
+      "buttons": {
+        "backToWorkspace": "無料ワークスペースに戻る",
+        "viewDocs": "プロジェクト文書を見る",
+        "devConfig": "開発設定"
+      },
+      "configAlert": "設定ファイルの場所: frontend/src/config/development.ts\n\nこのファイルで開発環境の動作を制御できます。"
+    },
+    "progressTitle": "開発進捗",
+    "notifyUpdate": "更新を通知",
+    "tabs": {
+      "ai": "AI機能",
+      "batch": "バッチ処理",
+      "templates": "テンプレートライブラリ",
+      "tools": "プロフェッショナルツール"
+    }
+  },
+  "workspace": {
+    "title": "無料ワークスペース",
+    "subtitle": "テキスト、ステッカー、吹き出しなどの豊富なツールとワンクリックエクスポート機能を提供する無料オンラインミーム作成",
+    "tools": {
+      "title": "作成ツール",
+      "subtitle": "ツールを選択してミーム作成を開始",
+      "text": {
+        "name": "テキスト追加",
+        "description": "テキスト内容を追加",
+        "panelTitle": "テキストスタイル"
+      },
+      "bubble": {
+        "name": "吹き出し", 
+        "description": "吹き出しを追加",
+        "panelTitle": "吹き出し",
+        "comingSoon": "吹き出し機能は開発中...",
+        "stayTuned": "お楽しみに"
+      },
+      "shape": {
+        "name": "基本図形",
+        "description": "幾何学図形を追加", 
+        "panelTitle": "基本図形",
+        "comingSoon": "基本図形機能は開発中...",
+        "stayTuned": "お楽しみに"
+      },
+      "sticker": {
+        "name": "絵文字ステッカー",
+        "description": "絵文字ステッカーを選択",
+        "panelTitle": "絵文字ステッカー"
+      },
+      "image": {
+        "name": "画像ライブラリ",
+        "description": "画像素材の管理と挿入",
+        "panelTitle": "画像ライブラリ",
+        "upload": {
+          "quick": "クイック追加",
+          "batch": "一括アップロード",
+          "uploading": "アップロード中...",
+          "dragText": "画像をここにドラッグ",
+          "clickText": "ファイルを選択してください",
+          "formats": "JPG、PNG、GIF、WebP形式に対応",
+          "maxSize": "1ファイル最大10MB",
+          "modal": {
+            "title": "画像ライブラリにアップロード",
+            "subtitle": "JPG、PNG、GIF、WebP、SVG形式に対応",
+            "dropText": "ファイルをドロップしてアップロード",
+            "batchSupport": "一括アップロード対応、1ファイル最大10MB",
+            "selectedFiles": "選択されたファイル",
+            "pending": "待機中",
+            "success": "成功",
+            "failed": "失敗",
+            "uploadTo": "ライブラリにアップロード",
+            "cancel": "キャンセル",
+            "uploadProgress": "アップロード進行状況",
+            "removeFile": "ファイルを削除",
+            "errorFormats": "サポートされていないファイル形式です。対応形式：JPG、PNG、GIF、WebP、SVG",
+            "errorSize": "ファイルが大きすぎます。最大サイズ"
+          }
+        },
+        "library": {
+          "title": "画像ライブラリ",
+          "count": "枚の画像",
+          "search": "画像を検索...",
+          "empty": "画像がありません",
+          "emptyHint": "上のボタンをクリックして画像素材を追加",
+          "noResults": "該当する画像が見つかりません",
+          "searchHint": "検索キーワードを変更してみてください",
+          "selected": "選択済み",
+          "displaying": "表示中",
+          "total": "合計",
+          "insertToCanvas": "キャンバスに挿入",
+          "delete": "画像を削除",
+          "clearLibrary": "画像ライブラリをクリア",
+          "confirmDelete": "この画像を削除してもよろしいですか？",
+          "confirmClear": "画像ライブラリ全体をクリアしてもよろしいですか？この操作は元に戻せません。",
+          "batchDelete": "選択した画像を削除",
+          "files": "個のファイル",
+          "editImage": "画像を編集",
+          "batchManagement": "一括選択と管理が可能"
+        },
+        "sort": {
+          "byDate": "日付順",
+          "byName": "名前順", 
+          "bySize": "サイズ順",
+          "ascending": "昇順",
+          "descending": "降順"
+        },
+        "view": {
+          "grid": "グリッド表示",
+          "list": "リスト表示"
+        },
+        "editor": {
+          "title": "画像エディタ",
+          "reset": "すべての設定をリセット",
+          "processing": "処理中...",
+          "loading": "読み込み中...",
+          "cancel": "キャンセル",
+          "saving": "保存中...",
+          "saveToLibrary": "ライブラリに保存",
+          "quickFilters": "クイックフィルタ",
+          "effects": "エフェクト",
+          "crop": {
+            "title": "画像トリミング",
+            "developing": "トリミング機能は開発中...",
+            "enable": "トリミングを有効にする",
+            "disable": "トリミングをキャンセル"
+          },
+          "filters": {
+            "vintage": "ビンテージ",
+            "dramatic": "ドラマチック",
+            "soft": "ソフト",
+            "bw": "白黒",
+            "vibrant": "鮮やか",
+            "retro": "レトロ"
+          },
+          "adjustments": {
+            "brightness": "明度",
+            "contrast": "コントラスト",
+            "saturation": "彩度",
+            "blur": "ぼかし"
+          },
+          "effectLabels": {
+            "grayscale": "グレースケール",
+            "sepia": "セピア",
+            "invert": "反転"
+          }
+        },
+        "errors": {
+          "processFailed": "画像処理に失敗しました。もう一度お試しください"
+        },
+        "modal": {
+          "or": "または",
+          "totalFiles": "合計",
+          "files": "個のファイル",
+          "uploadingFile": "アップロード中...",
+          "processingFailed": "画像処理に失敗しました"
+        },
+        "performance": {
+          "title": "パフォーマンス監視",
+          "showMonitor": "パフォーマンス監視を表示",
+          "status": {
+            "good": "良好",
+            "warning": "警告",
+            "error": "エラー"
+          },
+          "metrics": {
+            "processed": "処理済み",
+            "avgTime": "平均時間",
+            "memory": "メモリ使用量",
+            "compression": "圧縮率"
+          },
+          "recentActivity": "最近のアクティビティ",
+          "noActivity": "アクティビティ記録がありません",
+          "actions": {
+            "stopMonitoring": "監視を停止",
+            "startMonitoring": "監視を開始",
+            "clearData": "データをクリア",
+            "exportReport": "レポートをエクスポート"
+          },
+          "recommendations": {
+            "slowProcessing": "処理時間が長いです。画像の品質やサイズを下げることをお勧めします",
+            "highMemory": "メモリ使用量が高いです。画像ライブラリをクリアするかアプリを再起動することをお勧めします",
+            "highErrors": "エラー率が高いです。画像形式とサイズ制限を確認することをお勧めします",
+            "lowCompression": "圧縮率が低いです。圧縮パラメータを調整することをお勧めします"
+          }
+        }
+      },
+      "defaultState": {
+        "message": "上記のツールを選択して作成を開始",
+        "hint": "任意のツールボタンをクリックしてオプションを展開"
+      }
+    },
+    "textTool": {
+      "presets": {
+        "title": "テキストプリセット",
+        "headline": {
+          "name": "見出し",
+          "preview": "見出しテキスト"
+        },
+        "subtitle": {
+          "name": "副見出し", 
+          "preview": "副見出し"
+        },
+        "body": {
+          "name": "本文",
+          "preview": "本文内容"
+        },
+        "meme": {
+          "name": "ミームテキスト",
+          "preview": "気になります"
+        },
+        "comic": {
+          "name": "コミックスタイル",
+          "preview": "BOOM!"
+        },
+        "elegant": {
+          "name": "エレガントスタイル",
+          "preview": "エレガントテキスト"
+        }
+      },
+      "input": {
+        "label": "テキスト内容",
+        "placeholder": "追加するテキストを入力",
+        "defaultText": "ミームテキスト"
+      },
+      "font": {
+        "family": "フォント",
+        "size": "サイズ"
+      },
+      "style": {
+        "title": "スタイル",
+        "bold": "太字",
+        "italic": "斜体", 
+        "underline": "下線",
+        "alignLeft": "左揃え",
+        "alignCenter": "中央揃え",
+        "alignRight": "右揃え"
+      },
+      "color": {
+        "title": "テキスト色"
+      },
+      "effects": {
+        "title": "エフェクト",
+        "shadow": "影効果",
+        "stroke": "縁取り効果",
+        "strokeColor": "縁取り色"
+      },
+      "preview": {
+        "title": "プレビュー",
+        "placeholder": "テキストプレビュー"
+      },
+      "button": {
+        "add": "キャンバスに追加"
+      }
+    },
+    "stickerLibrary": {
+      "search": {
+        "placeholder": "ステッカーを検索...",
+        "results": "検索結果",
+        "noResults": "関連するステッカーが見つかりません"
+      },
+      "categories": {
+        "all": "すべて",
+        "emotions": "感情",
+        "hands": "ジェスチャー", 
+        "objects": "オブジェクト"
+      },
+      "sections": {
+        "popular": "人気ステッカー"
+      },
+      "stickers": {
+        "emotions": {
+          "happy": "嬉しい",
+          "laugh": "笑い",
+          "cute": "可愛い",
+          "cool": "クール",
+          "thinking": "考える",
+          "crying": "泣く",
+          "angry": "怒り",
+          "eyeRoll": "白目",
+          "surprised": "驚き",
+          "hug": "ハグ"
+        },
+        "hands": {
+          "wave": "手を振る",
+          "thumbsUp": "いいね",
+          "thumbsDown": "良くない",
+          "fist": "こぶし",
+          "victory": "勝利"
+        },
+        "objects": {
+          "fire": "火",
+          "star": "星",
+          "hundred": "100点",
+          "money": "お金",
+          "party": "パーティー"
+        }
+      }
+    },
+    "toolbar": {
+      "brand": "ミームメーカー",
+      "undo": "元に戻す",
+      "undoShortcut": "元に戻す (Ctrl+Z)",
+      "redo": "やり直し", 
+      "redoShortcut": "やり直し (Ctrl+Y)",
+      "select": "選択",
+      "selectShortcut": "選択ツール (V)",
+      "text": "テキスト",
+      "textShortcut": "テキストツール (T)",
+      "shape": "図形",
+      "shapeShortcut": "図形ツール (S)",
+      "upload": "アップロード",
+      "uploadShortcut": "画像アップロード (U)",
+      "hand": "移動",
+      "handShortcut": "移動ツール (H)",
+      "grid": "グリッド",
+      "gridShortcut": "グリッド表示切替",
+      "zoomIn": "拡大",
+      "zoomOut": "縮小",
+      "resetZoom": "ズームリセット",
+      "delete": "削除",
+      "deleteSelected": "選択要素を削除",
+      "clear": "クリア",
+      "clearCanvas": "キャンバスをクリア",
+      "save": "保存",
+      "saveProject": "プロジェクト保存",
+      "export": "エクスポート",
+      "exportMeme": "ミームをエクスポート",
+      "settings": "設定"
+    },
+    "imageUploader": {
+      "title": "画像アップロード",
+      "dragText": "クリックしてアップロードするか、画像をここにドラッグしてください",
+      "dragActiveText": "ファイルを離してアップロード開始",
+      "supportedFormats": "対応形式",
+      "maxSize": "最大",
+      "uploading": "アップロード中...",
+      "uploadSuccess": "アップロード成功",
+      "imagesCount": "枚の画像",
+      "uploadedImages": "アップロード済み画像",
+      "addToCanvas": "キャンバスに追加",
+      "delete": "削除",
+      "errors": {
+        "unsupportedFormat": "サポートされていないファイル形式です。対応形式:",
+        "fileTooBig": "ファイルが大きすぎます。最大サイズ",
+        "uploadFailed": "アップロード失敗、再試行してください",
+        "readFailed": "ファイル読み込み失敗"
+      }
+    },
+    "canvas": {
+      "upload": {
+        "title": "画像アップロード",
+        "dragTitle": "画像をドロップして作成開始",
+        "dragText": "クリックしてアップロードするか、画像をここにドラッグしてください",
+        "dragActiveText": "マウスを離してアップロード",
+        "uploading": "アップロード中...",
+        "supportedFormats": "JPG、PNG、GIF、WebP形式対応、最大10MB",
+        "errors": {
+          "unsupportedFormat": "サポートされていないファイル形式です。対応形式: JPG, PNG, GIF, WEBP",
+          "fileTooBig": "ファイルが大きすぎます。最大サイズ"
+        }
+      }
+    },
+    "rightPanel": {
+      "tabs": {
+        "layers": "レイヤー",
+        "properties": "プロパティ", 
+        "align": "整列",
+        "export": "エクスポート",
+        "history": "履歴"
+      },
+      "layers": {
+        "title": "レイヤーリスト",
+        "count": "個",
+        "empty": {
+          "title": "レイヤーなし",
+          "description": "要素を追加するとここに表示されます"
+        },
+        "element": {
+          "text": "テキスト"
+        },
+        "actions": {
+          "hide": "非表示",
+          "show": "表示",
+          "lock": "ロック",
+          "unlock": "ロック解除"
+        }
+      },
+      "properties": {
+        "canvas": {
+          "title": "キャンバス設定",
+          "backgroundColor": "背景色",
+          "canvasSize": "キャンバスサイズ"
+        },
+        "element": {
+          "title": "要素プロパティ",
+          "position": {
+            "x": "X",
+            "y": "Y"
+          },
+          "size": {
+            "width": "幅",
+            "height": "高さ"
+          },
+          "rotation": "回転角度",
+          "opacity": "透明度",
+          "text": {
+            "content": "テキスト内容",
+            "fontSize": "フォントサイズ",
+            "color": "テキスト色"
+          }
+        },
+        "empty": {
+          "message": "要素を選択してプロパティを表示"
+        }
+      },
+      "history": {
+        "title": "操作履歴",
+        "count": "個",
+        "empty": {
+          "title": "履歴なし"
+        }
+      },
+      "export": {
+        "developing": "エクスポート機能開発中...",
+        "comingSoon": "高度なエクスポート機能をお楽しみに"
+      }
+    }
+  },
+  "footer": {
+    "description": "開発者に完全なソリューションを提供する現代的なWebアプリケーション開発フレームワーク",
+    "products": {
+      "title": "製品",
+      "framework": "開発フレームワーク",
+      "components": "コンポーネントライブラリ",
+      "templates": "テンプレート",
+      "api": "APIドキュメント"
+    },
+    "support": {
+      "title": "サポート",
+      "guide": "ユーザーガイド",
+      "faq": "FAQ",
+      "contact": "お問い合わせ",
+      "privacy": "プライバシーポリシー"
+    },
+    "copyright": "© 2025 ColorMagic. 全権利保有。"
+  },
+  "colorAnalysis": {
+    "title": "カラーネームファインダー",
+    "subtitle": "あらゆる色の名前を識別・検索",
+    "description": "あらゆるソースから正確な色の名前と詳細を発見 - 画像アップロード、16進コード入力、直接色選択が可能",
+    "upload": {
+      "title": "画像アップロード",
+      "dragText": "画像をここにドラッグ＆ドロップ",
+      "clickText": "またはクリックして選択",
+      "supportedFormats": "JPG、PNG、WebP、GIF形式をサポート",
+      "maxSize": "最大ファイルサイズ：10MB",
+      "uploading": "アップロード中...",
+      "success": "アップロード成功",
+      "error": "アップロードに失敗しました。もう一度お試しください",
+      "instructions": "ドラッグ＆ドロップアップロードとファイル選択をサポート。最適な処理速度のため、画像サイズは1920x1080を超えないことをお勧めします。",
+      "reupload": "再アップロード"
+    },
+    "extraction": {
+      "title": "カラー抽出",
+      "analyzing": "解析中...",
+      "colorCount": "カラー数",
+      "extractColors": "色を抽出",
+      "autoExtracted": "自動抽出",
+      "manualPicked": "手動抽出",
+      "dominantColors": "主要色",
+      "extracting": "抽出中",
+      "reExtract": "再抽出",
+      "settings": {
+        "title": "解析設定",
+        "presets": "クイックプリセット",
+        "preset": {
+          "balanced": "バランス",
+          "vibrant": "鮮やか",
+          "minimal": "ミニマル",
+          "detailed": "詳細"
+        },
+        "basic": "基本設定",
+        "advanced": "高度設定",
+        "colorCount": "抽出数",
+        "algorithm": "抽出アルゴリズム",
+        "algorithm.kmeans": "K-meansクラスタリング",
+        "algorithm.medianCut": "中央値カット",
+        "includeNeutral": "ニュートラル色を含む",
+        "excludeSimilar": "類似色を除外",
+        "sensitivity": "感度",
+        "sensitivityDesc": "類似色認識の精度を制御",
+        "minPercentage": "最小割合",
+        "minPercentageDesc": "画像内の色の最小割合閾値",
+        "apply": "設定を適用",
+        "tip": {
+          "title": "設定ガイド",
+          "description": "これらのパラメータを調整して、より正確なカラー抽出結果を得る"
+        }
+      }
+    },
+    "picker": {
+      "title": "画像プレビュー",
+      "activate": "カラーピック",
+      "deactivate": "ピッカー終了",
+      "active": "ピックモード",
+      "inactive": "カラーピッカー",
+      "zoomIn": "拡大",
+      "zoomOut": "縮小",
+      "reset": "リセット",
+      "selectedColor": "選択した色",
+      "clickToPickColor": "画像をクリックして色を抽出",
+      "colorPicked": "色を抽出しました",
+      "position": "位置",
+      "zoomLevel": "ズームレベル",
+      "crosshair": "クロスヘア",
+      "magnifier": "拡大鏡",
+      "hoverInstruction": "ホバーして拡大鏡を表示、クリックして色を選択"
+    },
+    "palette": {
+      "title": "最終パレット",
+      "colors": "色",
+      "empty": "色なし",
+      "emptySlot": "空き",
+      "addColor": "色を追加",
+      "removeColor": "色を削除",
+      "copyHex": "HEXをコピー",
+      "copyRgb": "RGBをコピー",
+      "copyAll": "すべてコピー",
+      "reorder": "ドラッグして並び替え",
+      "export": "パレットをエクスポート",
+      "primary": "プライマリ",
+      "secondary": "セカンダリ",
+      "neutral": "ニュートラル",
+      "manual": "手動",
+      "manualPicker": "手動抽出",
+      "noExtractedColors": "まだ抽出された色がありません",
+      "clickImageToPick": "画像をクリックして手動で色を抽出",
+      "maxColorsReached": "最大限度に達しました（12色）、色を削除してから抽出を続けてください",
+      "maxColorsReachedShort": "限度に達しました",
+      "clear": "クリア",
+      "clearAll": "すべてクリア",
+      "clearManualColors": "手動抽出をクリア",
+      "clearConfirm": "すべての手動抽出色をクリアしてもよろしいですか？この操作は元に戻せません。",
+      "copiedColors": "{{count}}色をコピーしました",
+      "selected": "{{count}}個選択中",
+      "copyError": "コピーに失敗しました",
+      "copied": "コピーしました: {{value}}",
+      "emptyDescription": "画像をアップロードして色を抽出するか、画像を手動でクリックしてパレットに色を追加してください。",
+      "deleteSelected": "選択した色を削除",
+      "movingColor": "色を移動中..."
+    },
+    "actions": {
+      "analyze": "色を解析",
+      "reset": "解析をリセット",
+      "save": "解析を保存",
+      "export": "エクスポート",
+      "copy": "コピー",
+      "copied": "コピーしました",
+      "delete": "削除",
+      "edit": "編集",
+      "addAllToPalette": "すべてパレットに追加",
+      "resetConfirm": "再開してもよろしいですか？現在アップロードされた画像とすべての解析結果がクリアされます。"
+    },
+    "status": {
+      "ready": "準備完了",
+      "uploading": "アップロード中",
+      "analyzing": "解析中",
+      "complete": "解析完了",
+      "error": "エラーが発生しました",
+      "noImage": "まず画像をアップロードしてください"
+    },
+    "tips": {
+      "title": "使用のヒント",
+      "uploadImage": "画像をアップロードして自動的に色を抽出",
+      "clickPicker": "「カラーピック」を有効にして手動で色を選択",
+      "dragReorder": "パレット内の色をドラッグして並び替え",
+      "exportFormats": "様々な用途に応じて複数のフォーマットでエクスポート"
+    },
+    "export": {
+      "formats": {
+        "hex": {
+          "label": "HEXカラーコード",
+          "description": "16進数カラー値"
+        },
+        "rgb": {
+          "label": "RGBカラーコード",
+          "description": "RGBカラー値"
+        },
+        "hsl": {
+          "label": "HSLカラーコード",
+          "description": "HSLカラー値"
+        },
+        "css": {
+          "label": "CSS変数",
+          "description": "CSSカスタムプロパティ"
+        },
+        "json": {
+          "label": "JSONデータ",
+          "description": "構造化データフォーマット"
+        },
+        "image": {
+          "label": "PNG画像",
+          "description": "カラーパレット画像"
+        }
+      },
+      "emptyState": "色を追加してパレットをエクスポート",
+      "export": "エクスポート",
+      "exporting": "エクスポート中...",
+      "previewContent": "プレビューコンテンツ",
+      "showPreview": "プレビューを表示",
+      "hidePreview": "プレビューを隠す",
+      "imagePreview": "画像プレビュー",
+      "paletteTitle": "カラーパレット",
+      "colorName": "色",
+      "canvasError": "Canvasコンテキストを作成できません",
+      "imageGenerationError": "画像を生成できません",
+      "noColorsError": "エクスポートする色がありません",
+      "imagePreviewUnavailable": "画像プレビューは利用できません。直接エクスポートして確認してください",
+      "exportError": "エクスポートに失敗しました"
+    }
+  },
+  "pixelArt": {
+      "title": "ピクセルアート生成器 | 画像をピクセルアートに変換 | 写真をピクセル化",
+      "subtitle": "インテリジェント画像ピクセル化とスタイル変換",
+      "uploadArea": "アップロード エリア",
+      "uploadButton": "画像をアップロード",
+      "dragDropArea": "ドラッグ＆ドロップ エリア",
+      "dragDropHint": "ドラッグ＆ドロップ エリア",
+      "supportedFormats": "JPG, PNG, GIF",
+      "maxFileSize": "最大 10MB",
+      "modes": {
+        "title": "ピクセル処理モード",
+        "normal": "通常ピクセル",
+        "original": "オリジナルピクセル", 
+        "isolated": "分離ピクセル",
+        "enhanced": "強化ピクセル"
+      },
+      "parameters": {
+        "pixelSize": "ピクセルサイズ",
+        "colorCount": "色数",
+        "edgeDensity": "エッジ密度",
+        "sizePresets": {
+          "extraSmall": "XS",
+          "small": "S",
+          "medium": "M",
+          "large": "L", 
+          "extraLarge": "XL"
+        },
+        "edgePresets": {
+          "minimal": "最小",
+          "low": "低",
+          "medium": "中",
+          "high": "高", 
+          "maximum": "最大"
+        }
+      },
+      "palette": {
+        "title": "パレット",
+        "retro": "レトロ",
+        "neon": "ネオン",
+        "blackWhite": "白黒"
+      },
+             "filters": {
+         "title": "フィルター",
+         "none": "なし",
+         "retro": "レトロ",
+         "neon": "ネオン", 
+         "blackWhite": "白黒"
+       },
+      "preview": {
+        "title": "プレビューエリア",
+        "originalImage": "元画像",
+        "pixelizedImage": "ピクセル化された画像",
+        "demoEffect": "デモ効果 - 画像をアップロードして作成を開始！",
+        "realtimePreview": "リアルタイムプレビュー",
+        "demoImage": "デモ画像",
+        "demoResult": "デモ効果",
+        "demoMode": "デモモード - 画像をアップロードしてみて！",
+        "generating": "生成中...",
+        "previewPlaceholder": "ピクセルアートプレビュー",
+        "adjustParams": "パラメータを調整して異なる効果を確認",
+        "generatePixelArt": "ピクセルアートを生成"
+      },
+      "download": {
+        "png": "PNGダウンロード",
+        "jpg": "JPGダウンロード"
+      },
+      "status": {
+        "processing": "処理中...",
+        "failed": "処理失敗",
+        "completed": "変換完了",
+        "selectFileFirst": "最初に画像ファイルを選択してください",
+        "formatNotSupported": "PNGとJPG形式のみサポート",
+        "fileTooLarge": "ファイルサイズは10MBを超えることはできません"
+      }
+    }
+  } 

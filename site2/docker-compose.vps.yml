@@ -1,0 +1,75 @@
+# VPS部署专用 Docker Compose 配置
+# 遵循部署指南：单体容器 + 外部网络 + PostgreSQL总系统接入
+
+version: '3.8'
+
+services:
+  # 像素画转换器应用（前后端合并）
+  site2:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.simple
+    container_name: site2
+    restart: unless-stopped
+    
+    # 环境变量（从文件加载）
+    env_file:
+      - backend/.env
+    
+    # 健康检查配置
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3001/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    
+    # 网络配置（接入外部网络）
+    networks:
+      - webproxy      # Nginx Proxy Manager 访问
+      - shared_net    # PostgreSQL 总系统通信（可选，如需数据库）
+    
+    # 日志配置
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    
+    # 标签（用于管理）
+    labels:
+      - "app=pixel-art-converter"
+      - "environment=production"
+      - "managed-by=docker-compose"
+
+# 外部网络（必须提前创建）
+networks:
+  # Nginx Proxy Manager 网络（对外访问）
+  webproxy:
+    external: true
+  
+  # PostgreSQL 总系统网络（数据库通信，可选）
+  shared_net:
+    external: true
+
+# 说明：
+# 1. 使用前请先创建外部网络：
+#    docker network create webproxy
+#    docker network create shared_net
+#
+# 2. 配置环境变量文件 backend/.env
+#
+# 3. 部署命令：
+#    ./deploy.sh  # 推荐使用一键部署脚本
+#    或
+#    docker-compose -f docker-compose.vps.yml up -d --build
+#
+# 4. Nginx Proxy Manager 配置：
+#    Domain Names: pixelartland.cc, www.pixelartland.cc
+#    Scheme: http
+#    Forward Hostname/IP: site2
+#    Forward Port: 3001
+#    启用 SSL (Let's Encrypt)
+#    启用 Force SSL
+#    启用 WebSocket Support
+

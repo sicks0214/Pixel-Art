@@ -1,0 +1,114 @@
+generator client {
+  provider = "prisma-client-js"
+  binaryTargets = ["native", "rhel-openssl-1.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model Palette {
+  id          String   @id @default(cuid())
+  name        String
+  description String?
+  story       String?
+  personality String[] // 人格标签数组
+  
+  // 生成参数
+  purpose     String?
+  emotion     String?
+  keywords    String[]
+  projectType String?
+  
+  // 元数据
+  harmonyScore      Float?
+  isColorBlindFriendly Boolean @default(false)
+  
+  // 使用指南
+  usageGuide Json?
+  
+  // 关联关系
+  colors      Color[]
+  user        User?     @relation(fields: [userId], references: [id])
+  userId      String?
+  
+  // 社区功能
+  likes       Like[]
+  views       Int       @default(0)
+  isPublic    Boolean   @default(false)
+  tags        String[]
+  
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  
+  @@map("palettes")
+}
+
+model Color {
+  id        String  @id @default(cuid())
+  
+  // 颜色值
+  hex       String
+  r         Int
+  g         Int
+  b         Int
+  h         Float
+  s         Float
+  l         Float
+  
+  // 颜色属性
+  name      String
+  role      ColorRole
+  
+  // 关联关系
+  palette   Palette @relation(fields: [paletteId], references: [id], onDelete: Cascade)
+  paletteId String
+  
+  createdAt DateTime @default(now())
+  
+  @@map("colors")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  username  String?
+  avatar    String?
+  
+  // 用户偏好
+  preferences Json?
+  
+  // 关联关系
+  palettes  Palette[]
+  likes     Like[]
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  @@map("users")
+}
+
+model Like {
+  id        String   @id @default(cuid())
+  
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId    String
+  
+  palette   Palette  @relation(fields: [paletteId], references: [id], onDelete: Cascade)
+  paletteId String
+  
+  createdAt DateTime @default(now())
+  
+  @@unique([userId, paletteId])
+  @@map("likes")
+}
+
+enum ColorRole {
+  PRIMARY
+  SECONDARY
+  ACCENT
+  NEUTRAL
+  BACKGROUND
+} 

@@ -1,0 +1,149 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env
+
+# 但是保留模板文件
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# ESLint cache
+.eslintcache
+
+# Temporary folders
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Package managers
+.pnpm-debug.log*
+
+# Local Netlify folder
+.netlify
+
+# Vite
+.vite/
+
+# Test images and uploads
+test_images/
+uploads/
+processed/
+
+# Cache files
+.cache/
+*.cache
+
+# Lock files (keep package-lock.json but exclude others)
+yarn.lock
+
+# IDEs
+*.sublime-project
+*.sublime-workspace
+
+# Windows
+*.exe
+*.msi
+
+# Generated files
+auto-generated/
+generated/
+
+# ========== 安全相关：包含秘钥和敏感信息的文件 ==========
+# 一键启动脚本（包含API秘钥）
+start-all.bat
+start-all-with-key.bat
+
+# 测试文件（可能包含API秘钥）
+test-*.js
+test-*.bat
+backend/test-*.js
+frontend/test-*.js
+
+# 诊断和修复脚本
+diagnose-*.bat
+fix-*.bat
+restore-*.bat
+
+# 故障排除文档（可能包含敏感信息）
+troubleshoot-guide.md
+
+# API密钥和配置文件
+config/secrets.json
+config/api-keys.json
+**/secrets/**
+**/*secret*
+**/*key*.*
+**/*token*.*
+
+# 数据库配置文件
+database.conf
+db.conf
+
+# SSL证书和私钥
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.pfx
+
+# 备份文件
+*.bak
+*.backup
+*.old
+
+# 调试和性能测试文件
+debug-*.js
+perf-*.js
+benchmark-*.js 

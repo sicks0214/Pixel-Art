@@ -1,0 +1,1043 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "contact": "Contact",
+    "backToHome": "Retour à l'accueil",
+    "settings": "Paramètres",
+    "title": "ColorMagic",
+    "generator": "Générateur",
+    "random": "Aléatoire",
+    "fromImage": "À partir d'image",
+    "mixer": "Mélangeur",
+    "contrast": "Contraste",
+    "login": "Connexion"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "create": "Créer",
+    "upload": "Télécharger",
+    "download": "Télécharger",
+    "free": "Gratuit",
+    "paid": "Payant",
+    "comingSoon": "Bientôt disponible",
+    "underDevelopment": "En développement",
+    "language": "Langue",
+    "reset": "Réinitialiser",
+    "copy": "Copier",
+    "copied": "Copié !",
+    "generating": "Génération...",
+    "generated": "Généré",
+    "failed": "Échec",
+    "search": "Rechercher",
+    "back": "Retour"
+  },
+  "breadcrumb": {
+    "generator": "Générateur de couleurs",
+    "explore": "Explorer"
+  },
+  "page": {
+    "title": "Palettes de couleurs sombres",
+    "subtitle": "Créez des designs sophistiqués avec d'élégantes palettes de couleurs sombres. Découvrez des tons riches et profonds parfaits pour une esthétique moderne et premium !",
+    "inputPlaceholder": "Entrez des mots-clés pour définir l'ambiance, description de scène ou inspiration abstraite",
+    "generate": "Générer la palette de couleurs",
+    "paletteTitle": "{{name}}",
+    "brightness": "Luminosité",
+    "saturation": "Saturation",
+    "warmth": "Chaleur",
+    "download": "Exporter la palette",
+    "landscape": "Paysage",
+    "square": "Carré",
+    "css": "Classes CSS",
+    "linear": "Dégradé linéaire",
+    "radial": "Dégradé radial"
+  },
+  "colorcraft": {
+    "title": "ColorMagic",
+    "subtitle": "Palettes de couleurs sombres",
+    "description": "Découvrez d'élégantes palettes de couleurs sombres pour créer des\ndesigns sophistiqués et modernes avec des tons riches et profonds !\nEntièrement gratuit !",
+    "features": {
+      "aiPowered": {
+        "title": "Alimenté par IA",
+        "description": "Algorithmes avancés créent des combinaisons de couleurs captivantes"
+      },
+      "instantResults": {
+        "title": "Résultats instantanés",
+        "description": "Générez de belles palettes en quelques secondes"
+      },
+      "multipleFormats": {
+        "title": "Formats multiples",
+        "description": "Exportez dans divers formats pour tous vos projets"
+      }
+    },
+    "navigation": {
+      "backToGenerator": "Retour au générateur",
+      "color01": "Palettes de couleurs sombres",
+      "color02": "Chercheur de noms de couleur",
+
+      "color04": "Analyse des couleurs",
+      "color05": "Outils avancés"
+    },
+    "adjust": {
+      "title": "Ajuster la palette",
+      "resetToOriginal": "Rétablir l'original",
+      "save": "Enregistrer",
+      "saving": "Enregistrement...",
+      "saved": "Enregistré !",
+      "error": "Erreur",
+      "brightness": "Luminosité",
+      "saturation": "Saturation",
+      "warmth": "Chaleur",
+      "dark": "Sombre",
+      "original": "Original",
+      "bright": "Lumineux",
+      "gray": "Gris",
+      "vivid": "Vif",
+      "cool": "Frais",
+      "warm": "Chaud",
+      "modified": "Modifié",
+      "hasUnsavedChanges": "Vous avez des modifications non enregistrées. Cliquez sur \"Enregistrer\" pour conserver vos ajustements."
+    },
+    "export": {
+      "title": "Exporter la palette",
+      "landscape": "Paysage",
+      "portrait": "Portrait",
+      "square": "Carré",
+      "codeExport": "Export de code",
+      "cssClasses": "Classes CSS",
+      "linearGradient": "Dégradé linéaire",
+      "radialGradient": "Dégradé radial"
+    },
+    "colors": {
+      "copyHex": "Copier HEX",
+      "copied": "Copié !"
+    },
+    "status": {
+      "paletteGeneratedSuccessfully": "✨ Palette générée avec succès !",
+      "redirectingToResults": "Redirection vers les résultats...",
+      "generationFailed": "Échec de la génération",
+      "noPaletteFound": "Aucune palette trouvée",
+      "goBack": "Retourner"
+    },
+    "examples": {
+      "title": "Essayez ces exemples :",
+      "oceanSunset": "Océan de minuit",
+      "forestMorning": "Forêt sombre",
+      "cityLights": "Nuits néon",
+      "vintageCoffee": "Espresso riche",
+      "modernMinimalist": "Noir élite"
+    },
+    "placeholders": {
+      "imageAnalysis": {
+        "title": "Chercheur de noms de couleur",
+        "description": "Identifier et trouver des noms pour toute couleur"
+      },
+      "brandColors": {
+        "title": "Couleurs de marque",
+        "description": "Créer des schémas de couleurs professionnels pour votre marque"
+      },
+      "colorAnalysis": {
+        "title": "Analyse des couleurs",
+        "description": "Analyse approfondie de l'harmonie et des effets des couleurs"
+      },
+      "advancedTools": {
+        "title": "Outils avancés",
+        "description": "Outils professionnels de gestion et d'ajustement des couleurs"
+      },
+      "comingSoon": "Fonctionnalité en développement, à bientôt..."
+    }
+  },
+  "about": {
+    "title": "À propos",
+    "description": "ColorMagic est un framework de développement d'applications web modernes",
+    "subtitle": "Nous nous engageons à fournir aux développeurs les meilleures solutions de développement d'applications web",
+    "features": {
+      "title": "Fonctionnalités principales",
+      "responsive": "Design réactif",
+      "modular": "Architecture modulaire",
+      "international": "Support multilingue",
+      "plugin": "Système de plugins"
+    },
+    "tech": {
+      "title": "Stack technologique"
+    },
+    "contact": {
+      "title": "Nous contacter",
+      "description": "Si vous avez des questions ou des suggestions, n'hésitez pas à nous contacter",
+      "link": "Envoyer un message"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Formulaire de contact et informations de contact",
+    "subtitle": "Faites-nous part de vos commentaires et suggestions",
+    "info": {
+      "title": "Informations de contact",
+      "email": "Adresse e-mail",
+      "address": "Adresse",
+      "addressValue": "Paris, France",
+      "phone": "Numéro de téléphone"
+    },
+    "form": {
+      "title": "Envoyer un message",
+      "name": "Nom",
+      "email": "E-mail",
+      "subject": "Sujet",
+      "message": "Message",
+      "send": "Envoyer le message",
+      "sending": "Envoi en cours..."
+    },
+    "success": "Message envoyé avec succès ! Nous vous répondrons dans les plus brefs délais."
+  },
+  "home": {
+    "title": "AI Meme Maker",
+    "subtitle": "Plateforme professionnelle de création de mèmes alimentée par l'IA avec cartoonisation intelligente, édition professionnelle et traitement par lots. Créez facilement des mèmes personnalisés pour améliorer l'efficacité des réseaux sociaux et du marketing.",
+    "hero": {
+      "badge": "Outil de création de mèmes entièrement gratuit",
+      "mainTitle": "Créer des",
+      "highlightTitle": "mèmes gratuitement",
+      "description": "Outil de création de mèmes en ligne entièrement gratuit, supportant le texte, les autocollants, les bulles et autres éléments. La cartoonisation IA et d'autres fonctionnalités avancées sont également disponibles.",
+      "startButton": "Commencer gratuitement",
+      "advancedButton": "Essayer les fonctionnalités IA avancées"
+    },
+    "stats": {
+      "users": "Utilisateurs",
+      "images": "Images traitées", 
+      "rating": "Note des utilisateurs",
+      "templates": "Modèles"
+    },
+    "features": {
+      "title": "Fonctionnalités puissantes",
+      "subtitle": "Solution tout-en-un pour tous vos besoins de création de mèmes",
+      "items": {
+        "freeMemeCreation": {
+          "title": "Création de mèmes gratuite",
+          "description": "Outil de création de mèmes entièrement gratuit, supportant le texte, les autocollants, les bulles et autres éléments, utilisation illimitée"
+        },
+        "professionalEditing": {
+          "title": "Outils d'édition professionnels",
+          "description": "Riches outils de texte, filtres et effets spéciaux pour rendre vos créations plus personnalisées et professionnelles"
+        },
+        "multiFormatSupport": {
+          "title": "Support multi-format",
+          "description": "Supporte JPG, PNG, WebP et autres formats, compression intelligente garantit la meilleure qualité"
+        },
+        "fastProcessing": {
+          "title": "Traitement rapide",
+          "description": "Algorithmes de traitement optimisés, traitement d'image en quelques secondes, améliore votre efficacité créative"
+        },
+        "aiCartoonization": {
+          "title": "Cartoonisation IA intelligente",
+          "description": "Utilisant une technologie d'intelligence artificielle avancée, convertit les vraies photos en styles de dessins animés vivants et intéressants en un clic"
+        },
+        "privacyProtection": {
+          "title": "Protection de la vie privée",
+          "description": "Technologie de traitement local, vos données d'image sont sûres et fiables, confidentialité entièrement protégée"
+        }
+      }
+    },
+    "useCases": {
+      "title": "Cas d'usage",
+      "subtitle": "Quels que soient vos besoins, nous vous couvrons",
+      "social": {
+        "title": "Réseaux sociaux",
+        "description": "Créez des avatars amusants et des mèmes pour rendre vos interactions sociales plus vivantes"
+      },
+      "business": {
+        "title": "Marketing d'entreprise", 
+        "description": "Créez des supports marketing accrocheurs pour améliorer la communication de marque"
+      },
+      "education": {
+        "title": "Éducation et formation",
+        "description": "Créez du matériel pédagogique attrayant pour rendre l'apprentissage plus amusant et efficace"
+      },
+      "personal": {
+        "title": "Création personnelle",
+        "description": "Libérez votre créativité et créez des œuvres d'art uniques"
+      }
+    },
+    "testimonials": {
+      "title": "Ce que disent les utilisateurs",
+      "subtitle": "Écoutez les vraies expériences d'utilisateurs",
+      "items": [
+        {
+          "name": "Pierre",
+          "role": "Designer",
+          "content": "Cet outil est fantastique ! L'effet de cartoonisation IA est très naturel et a considérablement amélioré mon efficacité de travail."
+        },
+        {
+          "name": "Marie",
+          "role": "Directrice Marketing",
+          "content": "Notre équipe utilise maintenant cet outil pour créer des supports marketing, et les résultats dépassent nos attentes !"
+        },
+        {
+          "name": "Thomas",
+          "role": "Étudiant",
+          "content": "L'interface est simple et facile à utiliser, avec des fonctionnalités puissantes. C'est le meilleur outil de création de mèmes que j'aie jamais vu."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Prêt à commencer votre voyage créatif ?",
+      "subtitle": "Rejoignez des centaines de milliers d'utilisateurs dans la communauté créative et libérez votre potentiel créatif avec la technologie IA",
+      "startButton": "Commencer gratuitement",
+      "featuresButton": "Voir les fonctionnalités avancées",
+      "features": [
+        "Entièrement gratuit",
+        "Aucune inscription requise", 
+        "Confidentialité protégée"
+      ]
+    }
+  },
+  "advanced": {
+    "title": "Fonctionnalités IA avancées",
+    "subtitle": "Outils créatifs professionnels alimentés par l'IA - Exclusif Premium",
+    "description": "Fonctionnalités avancées de création de mèmes alimentées par l'IA, incluant la cartoonisation intelligente, le traitement par lots, les modèles professionnels et plus de fonctionnalités premium.",
+    "banner": {
+      "title": "⭐ Zone des fonctionnalités IA avancées",
+      "subtitle": "Les fonctionnalités suivantes nécessitent un abonnement premium pour profiter de l'expérience professionnelle alimentée par l'IA",
+      "limitedOffer": "Offre limitée",
+      "price": "4,99€/mois",
+      "upgrade": "Mettre à niveau maintenant"
+    },
+    "developmentNotice": {
+      "title": "🚧 En développement",
+      "subtitle": "Nous travaillons dur pour développer ces fonctionnalités IA passionnantes",
+      "description": "Les fonctionnalités IA avancées sont en développement intensif, incluant la cartoonisation intelligente, le traitement par lots, les modèles professionnels et plus.",
+      "features": [
+        "🎨 Cartoonisation intelligente - Convertir des photos réelles en style cartoon",
+        "🔄 Traitement par lots - Traiter plusieurs images à la fois",
+        "📚 Bibliothèque de modèles professionnels - Nombreux modèles magnifiques",
+        "🛠️ Outils professionnels - Fonctionnalités d'édition avancées"
+      ],
+      "timeline": "Sortie prévue: T2 2024",
+      "notification": "Nous vous informerons dès que le développement sera terminé !",
+      "backToWorkspace": "Retour à l'espace de travail gratuit"
+    },
+    "developmentMode": {
+      "title": "🚀 Mode Environnement de Développement",
+      "description": "Vous exécutez AI Meme Maker dans l'environnement de développement.",
+      "subtitle": "Vous pouvez maintenant continuer à développer les fonctionnalités IA avancées sans affecter le statut 'en développement' de l'environnement de production.",
+      "guide": {
+        "title": "💡 Guide de Développement",
+        "howToContinue": {
+          "title": "🛠️ Comment Continuer le Développement:",
+          "steps": [
+            "Importer vos composants de fonctionnalités IA sur cette page",
+            "Remplacer l'affichage du mode de développement actuel",
+            "Utiliser useTranslation pour le support multi-langues",
+            "L'environnement de production affichera automatiquement le statut 'en développement'"
+          ]
+        },
+        "configuration": {
+          "title": "⚙️ Options de Configuration:",
+          "options": [
+            "Éditer frontend/src/config/development.ts",
+            "Définir enableAdvancedFeatures: false pour tester le statut de production",
+            "Configurer les points d'API et autres options de développement",
+            "Support de localhost, 127.0.0.1 et domaines dev"
+          ]
+        },
+        "tip": "Cette page n'est affichée que dans l'environnement de développement. Lors du déploiement en production, les utilisateurs verront une belle page de statut 'en développement'."
+      },
+      "buttons": {
+        "backToWorkspace": "Retour à l'Espace de Travail Gratuit",
+        "viewDocs": "Voir la Documentation du Projet",
+        "devConfig": "Configuration de Développement"
+      },
+      "configAlert": "Emplacement du fichier de configuration: frontend/src/config/development.ts\n\nVous pouvez contrôler le comportement de l'environnement de développement dans ce fichier."
+    },
+    "progressTitle": "Progrès du Développement",
+    "notifyUpdate": "M'avertir des Mises à Jour",
+    "tabs": {
+      "ai": "Fonctionnalités IA",
+      "batch": "Traitement par lots",
+      "templates": "Bibliothèque de modèles",
+      "tools": "Outils professionnels"
+    }
+  },
+  "workspace": {
+    "title": "Espace de travail gratuit",
+    "subtitle": "Création de mèmes en ligne gratuite avec des outils riches comme le texte, les autocollants, les bulles et l'export en un clic",
+    "tools": {
+      "title": "Outils de création",
+      "subtitle": "Choisissez des outils pour commencer à créer vos mèmes",
+      "text": {
+        "name": "Ajouter du texte",
+        "description": "Ajouter du contenu textuel",
+        "panelTitle": "Styles de texte"
+      },
+      "bubble": {
+        "name": "Bulle de dialogue", 
+        "description": "Ajouter des bulles de dialogue",
+        "panelTitle": "Bulles de dialogue",
+        "comingSoon": "Fonctionnalité bulles de dialogue en développement...",
+        "stayTuned": "Restez à l'écoute"
+      },
+      "shape": {
+        "name": "Formes de base",
+        "description": "Ajouter des formes géométriques", 
+        "panelTitle": "Formes de base",
+        "comingSoon": "Fonctionnalité formes de base en développement...",
+        "stayTuned": "Restez à l'écoute"
+      },
+      "sticker": {
+        "name": "Autocollants Emoji",
+        "description": "Choisir des autocollants emoji",
+        "panelTitle": "Autocollants Emoji"
+      },
+      "image": {
+        "name": "Bibliothèque d'Images",
+        "description": "Gérer et insérer des ressources d'images",
+        "panelTitle": "Bibliothèque d'Images",
+        "upload": {
+          "quick": "Ajout Rapide",
+          "batch": "Téléchargement en Lot",
+          "uploading": "Téléchargement...",
+          "dragText": "Glisser les images ici",
+          "clickText": "Cliquer pour sélectionner des fichiers",
+          "formats": "Supporte les formats JPG, PNG, GIF, WebP",
+          "maxSize": "Max 10MB par fichier",
+          "modal": {
+            "title": "Télécharger vers la Bibliothèque d'Images",
+            "subtitle": "Supporte les formats JPG, PNG, GIF, WebP, SVG",
+            "dropText": "Déposer les fichiers pour télécharger",
+            "batchSupport": "Supporte le téléchargement en lot, max 10MB par fichier",
+            "selectedFiles": "Fichiers sélectionnés",
+            "pending": "En attente",
+            "success": "Succès",
+            "failed": "Échec",
+            "uploadTo": "Télécharger vers la bibliothèque",
+            "cancel": "Annuler",
+            "uploadProgress": "Progression du téléchargement",
+            "removeFile": "Supprimer le fichier",
+            "errorFormats": "Format de fichier non supporté. Formats supportés : JPG, PNG, GIF, WebP, SVG",
+            "errorSize": "Fichier trop volumineux, taille maximale"
+          }
+        },
+        "library": {
+          "title": "Bibliothèque d'Images",
+          "count": "images",
+          "search": "Rechercher des images...",
+          "empty": "Aucune image",
+          "emptyHint": "Cliquez sur le bouton ci-dessus pour ajouter des ressources d'images",
+          "noResults": "Aucune image correspondante trouvée",
+          "searchHint": "Essayez de modifier les mots-clés de recherche",
+          "selected": "Sélectionné",
+          "displaying": "Affichage",
+          "total": "Total",
+          "insertToCanvas": "Insérer sur le canevas",
+          "delete": "Supprimer l'image",
+          "clearLibrary": "Vider la bibliothèque d'images",
+          "confirmDelete": "Êtes-vous sûr de vouloir supprimer cette image ?",
+          "confirmClear": "Êtes-vous sûr de vouloir vider toute la bibliothèque d'images ? Cette opération ne peut pas être annulée.",
+          "batchDelete": "Supprimer la sélection",
+          "files": "fichiers",
+          "editImage": "Modifier l'image",
+          "batchManagement": "Prend en charge la sélection et la gestion en lot"
+        },
+        "sort": {
+          "byDate": "Par date",
+          "byName": "Par nom", 
+          "bySize": "Par taille",
+          "ascending": "Croissant",
+          "descending": "Décroissant"
+        },
+        "view": {
+          "grid": "Vue grille",
+          "list": "Vue liste"
+        },
+        "editor": {
+          "title": "Éditeur d'Images",
+          "reset": "Réinitialiser tous les paramètres",
+          "processing": "Traitement...",
+          "loading": "Chargement...",
+          "cancel": "Annuler",
+          "saving": "Sauvegarde...",
+          "saveToLibrary": "Sauvegarder dans la bibliothèque",
+          "quickFilters": "Filtres Rapides",
+          "effects": "Effets",
+          "crop": {
+            "title": "Recadrage d'Image",
+            "developing": "La fonction de recadrage est en développement...",
+            "enable": "Activer le recadrage",
+            "disable": "Annuler le recadrage"
+          },
+          "filters": {
+            "vintage": "Vintage",
+            "dramatic": "Dramatique",
+            "soft": "Doux",
+            "bw": "Noir et Blanc",
+            "vibrant": "Vibrant",
+            "retro": "Rétro"
+          },
+          "adjustments": {
+            "brightness": "Luminosité",
+            "contrast": "Contraste",
+            "saturation": "Saturation",
+            "blur": "Flou"
+          },
+          "effectLabels": {
+            "grayscale": "Niveaux de gris",
+            "sepia": "Sépia",
+            "invert": "Inverser"
+          }
+        },
+        "errors": {
+          "processFailed": "Le traitement de l'image a échoué, veuillez réessayer"
+        },
+        "modal": {
+          "or": "ou",
+          "totalFiles": "Total",
+          "files": "fichiers",
+          "uploadingFile": "Téléchargement...",
+          "processingFailed": "Échec du traitement de l'image"
+        },
+        "performance": {
+          "title": "Moniteur de Performance",
+          "showMonitor": "Afficher le moniteur de performance",
+          "status": {
+            "good": "Bon",
+            "warning": "Avertissement",
+            "error": "Erreur"
+          },
+          "metrics": {
+            "processed": "Traité",
+            "avgTime": "Temps moyen",
+            "memory": "Utilisation mémoire",
+            "compression": "Taux de compression"
+          },
+          "recentActivity": "Activité récente",
+          "noActivity": "Aucun enregistrement d'activité",
+          "actions": {
+            "stopMonitoring": "Arrêter le monitoring",
+            "startMonitoring": "Démarrer le monitoring",
+            "clearData": "Effacer les données",
+            "exportReport": "Exporter le rapport"
+          },
+          "recommendations": {
+            "slowProcessing": "Le temps de traitement est long, il est recommandé de réduire la qualité ou la taille de l'image",
+            "highMemory": "L'utilisation de la mémoire est élevée, il est recommandé de vider la bibliothèque d'images ou de redémarrer l'application",
+            "highErrors": "Le taux d'erreur est élevé, il est recommandé de vérifier le format et les limites de taille de l'image",
+            "lowCompression": "Le taux de compression est faible, il est recommandé d'ajuster les paramètres de compression"
+          }
+        }
+      },
+      "defaultState": {
+        "message": "Veuillez sélectionner un outil ci-dessus pour commencer à créer",
+        "hint": "Cliquez sur n'importe quel bouton d'outil pour développer les options"
+      }
+    },
+    "textTool": {
+      "presets": {
+        "title": "Préréglages de texte",
+        "headline": {
+          "name": "Titre",
+          "preview": "Texte de titre"
+        },
+        "subtitle": {
+          "name": "Sous-titre", 
+          "preview": "Sous-titre"
+        },
+        "body": {
+          "name": "Corps",
+          "preview": "Contenu du corps"
+        },
+        "meme": {
+          "name": "Texte de mème",
+          "preview": "Je suis curieux"
+        },
+        "comic": {
+          "name": "Style bande dessinée",
+          "preview": "BOOM!"
+        },
+        "elegant": {
+          "name": "Style élégant",
+          "preview": "Texte élégant"
+        }
+      },
+      "input": {
+        "label": "Contenu du texte",
+        "placeholder": "Entrez le texte à ajouter",
+        "defaultText": "Texte de mème"
+      },
+      "font": {
+        "family": "Police",
+        "size": "Taille"
+      },
+      "style": {
+        "title": "Style",
+        "bold": "Gras",
+        "italic": "Italique", 
+        "underline": "Souligné",
+        "alignLeft": "Aligner à gauche",
+        "alignCenter": "Centrer",
+        "alignRight": "Aligner à droite"
+      },
+      "color": {
+        "title": "Couleur du texte"
+      },
+      "effects": {
+        "title": "Effets",
+        "shadow": "Effet d'ombre",
+        "stroke": "Effet de contour",
+        "strokeColor": "Couleur du contour"
+      },
+      "preview": {
+        "title": "Aperçu",
+        "placeholder": "Aperçu du texte"
+      },
+      "button": {
+        "add": "Ajouter au canevas"
+      }
+    },
+    "toolbar": {
+      "brand": "Créateur de Mèmes",
+      "undo": "Annuler",
+      "undoShortcut": "Annuler (Ctrl+Z)",
+      "redo": "Refaire", 
+      "redoShortcut": "Refaire (Ctrl+Y)",
+      "select": "Sélectionner",
+      "selectShortcut": "Outil de sélection (V)",
+      "text": "Texte",
+      "textShortcut": "Outil texte (T)",
+      "shape": "Forme",
+      "shapeShortcut": "Outil forme (S)",
+      "upload": "Télécharger",
+      "uploadShortcut": "Télécharger image (U)",
+      "hand": "Déplacer",
+      "handShortcut": "Outil déplacement (H)",
+      "grid": "Grille",
+      "gridShortcut": "Basculer affichage grille",
+      "zoomIn": "Agrandir",
+      "zoomOut": "Réduire",
+      "resetZoom": "Réinitialiser zoom",
+      "delete": "Supprimer",
+      "deleteSelected": "Supprimer éléments sélectionnés",
+      "clear": "Effacer",
+      "clearCanvas": "Effacer toile",
+      "save": "Enregistrer",
+      "saveProject": "Enregistrer projet",
+      "export": "Exporter",
+      "exportMeme": "Exporter mème",
+      "settings": "Paramètres"
+    },
+    "imageUploader": {
+      "title": "Télécharger une image",
+      "dragText": "Cliquez pour télécharger ou glissez des images ici",
+      "dragActiveText": "Relâchez les fichiers pour commencer le téléchargement",
+      "supportedFormats": "Formats supportés",
+      "maxSize": "Max",
+      "uploading": "Téléchargement...",
+      "uploadSuccess": "Téléchargement réussi",
+      "imagesCount": "images",
+      "uploadedImages": "Images téléchargées",
+      "addToCanvas": "Ajouter au canevas",
+      "delete": "Supprimer",
+      "errors": {
+        "unsupportedFormat": "Format de fichier non supporté. Formats supportés:",
+        "fileTooBig": "Fichier trop volumineux, taille max",
+        "uploadFailed": "Échec du téléchargement, veuillez réessayer",
+        "readFailed": "Échec de lecture du fichier"
+      }
+    },
+    "canvas": {
+      "upload": {
+        "title": "Télécharger une image",
+        "dragTitle": "Déposez l'image pour commencer à créer",
+        "dragText": "Cliquez pour télécharger ou glissez des images ici",
+        "dragActiveText": "Relâchez la souris pour télécharger",
+        "uploading": "Téléchargement...",
+        "supportedFormats": "Supporte les formats JPG, PNG, GIF, WebP, max 10MB",
+        "errors": {
+          "unsupportedFormat": "Format de fichier non supporté. Formats supportés: JPG, PNG, GIF, WEBP",
+          "fileTooBig": "Fichier trop volumineux, taille max"
+        }
+      }
+    },
+    "rightPanel": {
+      "tabs": {
+        "layers": "Calques",
+        "properties": "Propriétés", 
+        "align": "Aligner",
+        "export": "Exporter",
+        "history": "Historique"
+      },
+      "layers": {
+        "title": "Liste des calques",
+        "count": "",
+        "empty": {
+          "title": "Aucun calque",
+          "description": "Les éléments apparaîtront ici après ajout"
+        },
+        "element": {
+          "text": "Texte"
+        },
+        "actions": {
+          "hide": "Masquer",
+          "show": "Afficher",
+          "lock": "Verrouiller",
+          "unlock": "Déverrouiller"
+        }
+      },
+      "properties": {
+        "canvas": {
+          "title": "Paramètres du canevas",
+          "backgroundColor": "Couleur d'arrière-plan",
+          "canvasSize": "Taille du canevas"
+        },
+        "element": {
+          "title": "Propriétés de l'élément",
+          "position": {
+            "x": "X",
+            "y": "Y"
+          },
+          "size": {
+            "width": "Largeur",
+            "height": "Hauteur"
+          },
+          "rotation": "Angle de rotation",
+          "opacity": "Opacité",
+          "text": {
+            "content": "Contenu du texte",
+            "fontSize": "Taille de police",
+            "color": "Couleur du texte"
+          }
+        },
+        "empty": {
+          "message": "Sélectionnez un élément pour voir les propriétés"
+        }
+      },
+      "history": {
+        "title": "Historique des opérations",
+        "count": "",
+        "empty": {
+          "title": "Aucun historique"
+        }
+      },
+      "export": {
+        "developing": "Fonctionnalité d'export en développement...",
+        "comingSoon": "Restez à l'écoute pour les fonctionnalités d'export avancées"
+      }
+    },
+    "stickerLibrary": {
+      "search": {
+        "placeholder": "Rechercher des autocollants...",
+        "results": "Résultats de recherche",
+        "noResults": "Aucun autocollant correspondant trouvé"
+      },
+      "categories": {
+        "all": "Tous",
+        "emotions": "Émotions",
+        "hands": "Gestes", 
+        "objects": "Objets"
+      },
+      "sections": {
+        "popular": "Autocollants populaires"
+      },
+      "stickers": {
+        "emotions": {
+          "happy": "Heureux",
+          "laugh": "Rire",
+          "cute": "Mignon",
+          "cool": "Cool",
+          "thinking": "Réfléchir",
+          "crying": "Pleurer",
+          "angry": "En colère",
+          "eyeRoll": "Lever les yeux",
+          "surprised": "Surpris",
+          "hug": "Câlin"
+        },
+        "hands": {
+          "wave": "Saluer",
+          "thumbsUp": "Pouce levé",
+          "thumbsDown": "Pouce baissé",
+          "fist": "Poing",
+          "victory": "Victoire"
+        },
+        "objects": {
+          "fire": "Feu",
+          "star": "Étoile",
+          "hundred": "Cent",
+          "money": "Argent",
+          "party": "Fête"
+        }
+      }
+    }
+  },
+  "footer": {
+    "description": "Framework de développement d'applications web modernes fournissant des solutions complètes aux développeurs",
+    "products": {
+      "title": "Produits",
+      "framework": "Framework de développement",
+      "components": "Bibliothèque de composants",
+      "templates": "Modèles",
+      "api": "Documentation API"
+    },
+    "support": {
+      "title": "Support",
+      "guide": "Guide utilisateur",
+      "faq": "FAQ",
+      "contact": "Nous contacter",
+      "privacy": "Politique de confidentialité"
+    },
+    "copyright": "© 2025 ColorMagic. Tous droits réservés."
+  },
+  "colorAnalysis": {
+    "title": "Chercheur de noms de couleur",
+    "subtitle": "Identifier et trouver des noms pour toute couleur",
+    "description": "Découvrez les noms précis et les détails des couleurs à partir de toute source - télécharger des images, saisir des codes hex ou sélectionner directement les couleurs",
+    "upload": {
+      "title": "Téléchargement d'image",
+      "dragText": "Glissez et déposez une image ici",
+      "clickText": "Ou cliquez pour sélectionner",
+      "supportedFormats": "Formats pris en charge : JPG, PNG, WebP, GIF",
+      "maxSize": "Taille de fichier maximale : 10 MB",
+      "uploading": "Téléchargement...",
+      "success": "Téléchargement réussi",
+      "error": "Échec du téléchargement. Veuillez réessayer",
+      "instructions": "Prend en charge le téléchargement par glisser-déposer et la sélection de fichiers. Il est recommandé que la taille de l'image ne dépasse pas 1920x1080 pour une vitesse de traitement optimale.",
+      "reupload": "Retélécharger"
+    },
+    "extraction": {
+      "title": "Extraction des couleurs",
+      "analyzing": "Analyse en cours...",
+      "colorCount": "Nombre de couleurs",
+      "extractColors": "Extraire les couleurs",
+      "autoExtracted": "Extraction automatique",
+      "manualPicked": "Extraction manuelle",
+      "dominantColors": "Couleurs dominantes",
+      "extracting": "Extraction",
+      "reExtract": "Réextraire",
+      "settings": {
+        "title": "Paramètres d'analyse",
+        "presets": "Préréglages rapides",
+        "preset": {
+          "balanced": "Équilibré",
+          "vibrant": "Vibrant",
+          "minimal": "Minimal",
+          "detailed": "Détaillé"
+        },
+        "basic": "Paramètres de base",
+        "advanced": "Paramètres avancés",
+        "colorCount": "Nombre d'extractions",
+        "algorithm": "Algorithme d'extraction",
+        "algorithm.kmeans": "Clustering K-means",
+        "algorithm.medianCut": "Coupe médiane",
+        "includeNeutral": "Inclure les couleurs neutres",
+        "excludeSimilar": "Exclure les couleurs similaires",
+        "sensitivity": "Sensibilité",
+        "sensitivityDesc": "Contrôle la précision de reconnaissance des couleurs similaires",
+        "minPercentage": "Pourcentage minimal",
+        "minPercentageDesc": "Seuil de pourcentage minimal des couleurs dans l'image",
+        "apply": "Appliquer les paramètres",
+        "tip": {
+          "title": "Guide des paramètres",
+          "description": "Ajustez ces paramètres pour obtenir des résultats d'extraction de couleurs plus précis"
+        }
+      }
+    },
+    "picker": {
+      "title": "Aperçu de l'image",
+      "activate": "Sélecteur de couleur",
+      "deactivate": "Quitter le sélecteur",
+      "active": "Mode sélection",
+      "inactive": "Sélecteur de couleur",
+      "zoomIn": "Agrandir",
+      "zoomOut": "Réduire",
+      "reset": "Réinitialiser",
+      "selectedColor": "Couleur sélectionnée",
+      "clickToPickColor": "Cliquez sur l'image pour extraire une couleur",
+      "colorPicked": "Couleur extraite",
+      "position": "Position",
+      "zoomLevel": "Niveau de zoom",
+      "crosshair": "Réticule",
+      "magnifier": "Loupe",
+      "hoverInstruction": "Survolez pour afficher la loupe, cliquez pour sélectionner une couleur"
+    },
+    "palette": {
+      "title": "Palette finale",
+      "colors": "couleurs",
+      "empty": "Aucune couleur",
+      "emptySlot": "Emplacement vide",
+      "addColor": "Ajouter une couleur",
+      "removeColor": "Supprimer la couleur",
+      "copyHex": "Copier HEX",
+      "copyRgb": "Copier RGB",
+      "copyAll": "Tout copier",
+      "reorder": "Glisser pour réorganiser",
+      "export": "Exporter la palette",
+      "primary": "Primaire",
+      "secondary": "Secondaire",
+      "neutral": "Neutre",
+      "manual": "Manuel",
+      "manualPicker": "Extraction manuelle",
+      "noExtractedColors": "Aucune couleur extraite pour le moment",
+      "clickImageToPick": "Cliquez sur l'image pour extraire manuellement une couleur",
+      "maxColorsReached": "Limite maximale atteinte (12 couleurs), veuillez supprimer des couleurs avant de continuer l'extraction",
+      "maxColorsReachedShort": "Limite atteinte",
+      "clear": "Effacer",
+      "clearAll": "Tout effacer",
+      "clearManualColors": "Effacer l'extraction manuelle",
+      "clearConfirm": "Êtes-vous sûr de vouloir effacer toutes les couleurs d'extraction manuelle ? Cette opération ne peut pas être annulée.",
+      "copiedColors": "{{count}} couleurs copiées",
+      "selected": "{{count}} sélectionnées",
+      "copyError": "Échec de la copie",
+      "copied": "Copié : {{value}}",
+      "emptyDescription": "Téléchargez une image et extrayez les couleurs, ou cliquez manuellement sur l'image pour ajouter des couleurs à la palette.",
+      "deleteSelected": "Supprimer les couleurs sélectionnées",
+      "movingColor": "Déplacement de la couleur..."
+    },
+    "actions": {
+      "analyze": "Analyser les couleurs",
+      "reset": "Réinitialiser l'analyse",
+      "save": "Sauvegarder l'analyse",
+      "export": "Exporter",
+      "copy": "Copier",
+      "copied": "Copié",
+      "delete": "Supprimer",
+      "edit": "Modifier",
+      "addAllToPalette": "Ajouter tout à la palette",
+      "resetConfirm": "Êtes-vous sûr de vouloir recommencer ? Cela effacera l'image actuellement téléchargée et tous les résultats d'analyse."
+    },
+    "status": {
+      "ready": "Prêt",
+      "uploading": "Téléchargement",
+      "analyzing": "Analyse",
+      "complete": "Analyse terminée",
+      "error": "Une erreur s'est produite",
+      "noImage": "Veuillez d'abord télécharger une image"
+    },
+    "tips": {
+      "title": "Conseils d'utilisation",
+      "uploadImage": "Téléchargez une image pour extraire automatiquement les couleurs",
+      "clickPicker": "Activez le 'Sélecteur de couleur' pour sélectionner manuellement les couleurs",
+      "dragReorder": "Glissez les couleurs dans la palette pour les réorganiser",
+      "exportFormats": "Exportez dans plusieurs formats selon différents usages"
+    },
+    "export": {
+      "formats": {
+        "hex": {
+          "label": "Codes couleur HEX",
+          "description": "Valeurs de couleur hexadécimales"
+        },
+        "rgb": {
+          "label": "Codes couleur RGB",
+          "description": "Valeurs de couleur RGB"
+        },
+        "hsl": {
+          "label": "Codes couleur HSL",
+          "description": "Valeurs de couleur HSL"
+        },
+        "css": {
+          "label": "Variables CSS",
+          "description": "Propriétés personnalisées CSS"
+        },
+        "json": {
+          "label": "Données JSON",
+          "description": "Format de données structurées"
+        },
+        "image": {
+          "label": "Image PNG",
+          "description": "Image de palette de couleurs"
+        }
+      },
+      "emptyState": "Ajoutez des couleurs pour exporter la palette",
+      "export": "Exporter",
+      "exporting": "Exportation...",
+      "previewContent": "Contenu de l'aperçu",
+      "showPreview": "Afficher l'aperçu",
+      "hidePreview": "Masquer l'aperçu",
+      "imagePreview": "Aperçu de l'image",
+      "paletteTitle": "Palette de couleurs",
+      "colorName": "Couleur",
+      "canvasError": "Impossible de créer le contexte Canvas",
+      "imageGenerationError": "Impossible de générer l'image",
+      "noColorsError": "Aucune couleur à exporter",
+      "imagePreviewUnavailable": "Aperçu de l'image indisponible, veuillez exporter directement pour voir",
+      "exportError": "Échec de l'exportation"
+    }
+  },
+  "pixelArt": {
+    "title": "générateur d'art pixel | convertir image en pixel art | photo vers pixel art",
+    "subtitle": "Pixellisation d'Image Intelligente et Conversion de Style",
+    "uploadArea": "Zone de Téléchargement",
+    "uploadButton": "Télécharger l'Image",
+    "dragDropArea": "Zone Glisser-Déposer",
+    "dragDropHint": "Zone Glisser-Déposer",
+    "supportedFormats": "JPG, PNG, GIF",
+    "maxFileSize": "Max 10MB",
+    "modes": {
+      "title": "Mode de Traitement Pixel",
+      "normal": "Pixel Normal",
+      "original": "Pixel Original", 
+      "isolated": "Pixel Isolé",
+      "enhanced": "Pixel Amélioré"
+    },
+    "parameters": {
+      "pixelSize": "Taille de Pixel",
+      "colorCount": "Nombre de Couleurs",
+      "edgeDensity": "Densité de Contour",
+              "sizePresets": {
+          "extraSmall": "XS",
+          "small": "S",
+          "medium": "M",
+          "large": "L", 
+          "extraLarge": "XL"
+        },
+        "edgePresets": {
+          "minimal": "Min",
+          "low": "Bas",
+          "medium": "Moy",
+          "high": "Haut", 
+          "maximum": "Max"
+        }
+    },
+    "palette": {
+      "title": "Palette",
+      "retro": "Rétro",
+      "neon": "Néon",
+      "blackWhite": "Noir et Blanc"
+    },
+    "filters": {
+      "title": "Filtres",
+      "none": "Aucun",
+      "retro": "Rétro",
+      "neon": "Néon", 
+      "blackWhite": "Noir et Blanc"
+    },
+    "preview": {
+      "title": "Zone d'Aperçu",
+      "originalImage": "Original",
+      "pixelizedImage": "Pixellisé",
+      "demoEffect": "Effet de Démo - Téléchargez votre image pour commencer!",
+      "realtimePreview": "Aperçu en Temps Réel",
+      "demoImage": "Image de Démo",
+      "demoResult": "Effet de Démo",
+      "demoMode": "Mode Démo - Essayez de télécharger votre image!",
+      "generating": "Génération...",
+      "previewPlaceholder": "Aperçu d'Art Pixel",
+      "adjustParams": "Ajustez les paramètres pour voir différents effets",
+      "generatePixelArt": "Générer l'Art Pixel"
+    },
+    "download": {
+      "png": "Télécharger PNG",
+      "jpg": "Télécharger JPG"
+    },
+    "status": {
+      "processing": "Traitement...",
+      "failed": "Traitement Échoué",
+      "completed": "Conversion Terminée",
+      "selectFileFirst": "Veuillez d'abord sélectionner un fichier image",
+      "formatNotSupported": "Seuls les formats PNG et JPG sont pris en charge",
+      "fileTooLarge": "La taille du fichier ne peut pas dépasser 10MB"
+    }
+  }
+} 

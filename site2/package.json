@@ -1,0 +1,16 @@
+{
+  "name": "pixel-art-converter-workspace",
+  "version": "2.0.0",
+  "description": "像素画转换器 - 专业的图像转像素画Web应用",
+  "private": true,
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview",
+    "vercel-build": "cd frontend && npm run build"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}

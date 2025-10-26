@@ -1,0 +1,521 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "backToHome": "Back to Home",
+    "settings": "Settings",
+    "title": "WebApp Framework",
+    "generator": "Generator",
+    "random": "Random",
+    "fromImage": "From Image",
+    "mixer": "Mixer",
+    "contrast": "Contrast",
+    "login": "Login"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "upload": "Upload",
+    "download": "Download",
+    "free": "Free",
+    "paid": "Paid",
+    "comingSoon": "Coming Soon",
+    "underDevelopment": "Under Development",
+    "language": "Language",
+    "reset": "Reset",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "generating": "Generating...",
+    "generated": "Generated",
+    "failed": "Failed",
+    "search": "Search",
+    "back": "Back"
+  },
+  "breadcrumb": {
+    "generator": "Color Generator",
+    "explore": "Explore"
+  },
+  "page": {
+    "title": "Dark Color Palettes",
+    "subtitle": "Create sophisticated designs with elegant dark color palettes. Discover rich, deep tones perfect for modern and premium aesthetics!",
+    "inputPlaceholder": "Enter keywords, scene descriptions, or abstract inspiration to set the mood",
+    "generate": "Generate Color Palette",
+    "paletteTitle": "{{name}}",
+    "brightness": "Brightness",
+    "saturation": "Saturation",
+    "warmth": "Warmth",
+    "download": "Export Palette",
+    "landscape": "Landscape",
+    "square": "Square",
+    "css": "CSS Classes",
+    "linear": "Linear Gradient",
+    "radial": "Radial Gradient"
+  },
+  "colorcraft": {
+    "title": "ColorMagic",
+    "subtitle": "Dark Color Palettes",
+    "description": "Discover elegant dark color palettes to create sophisticated and\nmodern designs with rich, deep tones!\nCompletely free!",
+    "features": {
+      "aiPowered": {
+        "title": "AI-Powered",
+        "description": "Advanced algorithms create stunning color combinations"
+      },
+      "instantResults": {
+        "title": "Instant Results",
+        "description": "Generate beautiful palettes in seconds"
+      },
+      "multipleFormats": {
+        "title": "Multiple Formats",
+        "description": "Export in various formats for any project"
+      }
+    },
+    "navigation": {
+      "backToGenerator": "Back to Generator",
+      "color01": "Dark Color Palettes",
+      "color02": "Color Name Finder",
+
+      "color04": "Color Analysis",
+      "color05": "Advanced Tools"
+    },
+    "adjust": {
+      "title": "Adjust Palette",
+      "resetToOriginal": "Reset to Original",
+      "save": "Save",
+      "saving": "Saving...",
+      "saved": "Saved!",
+      "error": "Error",
+      "brightness": "Brightness",
+      "saturation": "Saturation",
+      "warmth": "Warmth",
+      "dark": "Dark",
+      "original": "Original",
+      "bright": "Bright",
+      "gray": "Gray",
+      "vivid": "Vivid",
+      "cool": "Cool",
+      "warm": "Warm",
+      "modified": "Modified",
+      "hasUnsavedChanges": "You have unsaved changes. Click \"Save\" to preserve your adjustments."
+    },
+    "export": {
+      "title": "Export Palette",
+      "landscape": "Landscape",
+      "portrait": "Portrait",
+      "square": "Square",
+      "codeExport": "Code Export",
+      "cssClasses": "CSS Classes",
+      "linearGradient": "Linear Gradient",
+      "radialGradient": "Radial Gradient"
+    },
+    "colors": {
+      "copyHex": "Copy HEX",
+      "copied": "Copied!"
+    },
+    "status": {
+      "paletteGeneratedSuccessfully": "✨ Palette generated successfully!",
+      "redirectingToResults": "Redirecting to results...",
+      "generationFailed": "Generation failed",
+      "noPaletteFound": "No Palette Found",
+      "goBack": "Go Back"
+    },
+    "examples": {
+      "title": "Try these examples:",
+      "oceanSunset": "Midnight ocean",
+      "forestMorning": "Dark forest",
+      "cityLights": "Neon nights",
+      "vintageCoffee": "Rich espresso",
+      "modernMinimalist": "Elite black"
+    },
+    "placeholders": {
+      "imageAnalysis": {
+        "title": "Color Name Finder",
+        "description": "Identify and find names for any color"
+      },
+      "brandColors": {
+        "title": "Brand Colors",
+        "description": "Create professional color schemes for your brand"
+      },
+      "colorAnalysis": {
+        "title": "Color Analysis",
+        "description": "Deep analysis of color harmony and effects"
+      },
+      "advancedTools": {
+        "title": "Advanced Tools",
+        "description": "Professional color management and adjustment tools"
+      },
+      "comingSoon": "Feature under development, stay tuned..."
+    }
+  },
+  "home": {
+    "title": "WebApp Framework",
+    "description": "Modern Web Application Development Framework with Layered Architecture, Plugin Coupling, and Multi-language Support",
+    "hero": {
+      "title": "Modern Web Application Development Framework",
+      "subtitle": "Complete solution based on React 18 + TypeScript + Node.js, supporting layered architecture, plugin coupling, and multi-language",
+      "learnMore": "Learn More",
+      "contactUs": "Contact Us"
+    },
+    "features": {
+      "title": "Framework Features",
+      "subtitle": "Complete solution designed for modern web application development",
+      "modular": {
+        "title": "Modular Design",
+        "description": "Component-based architecture supporting independent development and deployment of functional modules"
+      },
+      "international": {
+        "title": "Multi-language",
+        "description": "Built-in i18next support for easy multi-language internationalization"
+      },
+      "layered": {
+        "title": "Layered Architecture",
+        "description": "Clear separation of presentation, control, business, service, and data layers"
+      },
+      "fast": {
+        "title": "Rapid Development",
+        "description": "Fast build based on Vite with hot reload to improve development efficiency"
+      },
+      "configurable": {
+        "title": "Highly Configurable",
+        "description": "Flexible configuration system supporting customized requirements for different environments"
+      },
+      "secure": {
+        "title": "Secure & Reliable",
+        "description": "Built-in security mechanisms protecting application and user data security"
+      }
+    },
+    "tech": {
+      "title": "Technology Stack",
+      "subtitle": "Adopting the latest web technology stack to ensure application performance and maintainability",
+      "frontend": "Frontend Technology",
+      "backend": "Backend Technology",
+      "build": "Build Tools",
+      "i18n": "Internationalization"
+    },
+    "cta": {
+      "title": "Start Your Project",
+      "subtitle": "Use our framework to start building your next web application immediately",
+      "getStarted": "Get Started",
+      "learnMore": "Learn More"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "description": "WebApp Framework is a modern web application development framework",
+    "subtitle": "We are committed to providing developers with the best web application development solutions",
+    "features": {
+      "title": "Core Features",
+      "responsive": "Responsive Design",
+      "modular": "Modular Architecture",
+      "international": "Multi-language Support",
+      "plugin": "Plugin System"
+    },
+    "tech": {
+      "title": "Technology Stack"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "If you have any questions or suggestions, please feel free to contact us",
+      "link": "Send Message"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Contact form and contact information",
+    "subtitle": "We'd love to hear your feedback and suggestions",
+    "info": {
+      "title": "Contact Information",
+      "email": "Email Address",
+      "address": "Address",
+      "addressValue": "Chaoyang District, Beijing, China",
+      "phone": "Phone Number"
+    },
+    "form": {
+      "title": "Send Message",
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending..."
+    },
+    "success": "Message sent successfully! We will reply to you as soon as possible."
+  },
+  "footer": {
+    "description": "Modern web application development framework providing complete solutions for developers",
+    "products": {
+      "title": "Products",
+      "framework": "Development Framework",
+      "components": "Component Library",
+      "templates": "Templates",
+      "api": "API Documentation"
+    },
+    "support": {
+      "title": "Support",
+      "guide": "User Guide",
+      "faq": "FAQ",
+      "contact": "Contact Us",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "disclaimer": "Disclaimer"
+    },
+    "copyright": "© 2025 WebApp Framework. All rights reserved."
+  },
+  "colorAnalysis": {
+    "title": "Color Name Finder",
+    "subtitle": "Identify and find names for any color",
+    "description": "Discover the precise names and details of colors from any source - upload images, enter hex codes, or pick colors directly",
+    "upload": {
+      "title": "Upload Image",
+      "dragText": "Drag and drop an image here",
+      "clickText": "or click to select",
+      "supportedFormats": "Supports JPG, PNG, WebP, GIF",
+      "maxSize": "Maximum file size: 10MB",
+      "uploading": "Uploading...",
+      "success": "Upload successful",
+      "error": "Upload failed, please try again",
+      "instructions": "Supports drag-and-drop upload and file selection. Image size should not exceed 1920x1080 for optimal processing speed.",
+      "reupload": "Re-upload"
+    },
+    "extraction": {
+      "title": "Color Extraction",
+      "analyzing": "Analyzing...",
+      "colorCount": "Color Count",
+      "extractColors": "Extract Colors",
+      "autoExtracted": "Auto Extracted",
+      "manualPicked": "Manual Picked",
+      "dominantColors": "Dominant Colors",
+      "extracting": "Extracting",
+      "reExtract": "Re-extract",
+      "settings": {
+        "title": "Analysis Settings",
+        "presets": "Quick Presets",
+        "preset": {
+          "balanced": "Balanced",
+          "vibrant": "Vibrant",
+          "minimal": "Minimal",
+          "detailed": "Detailed"
+        },
+        "basic": "Basic Settings",
+        "advanced": "Advanced Settings",
+        "colorCount": "Extract Count",
+        "algorithm": "Extraction Algorithm",
+        "algorithm.kmeans": "K-means Clustering",
+        "algorithm.medianCut": "Median Cut",
+        "includeNeutral": "Include Neutral",
+        "excludeSimilar": "Exclude Similar Colors",
+        "sensitivity": "Sensitivity",
+        "sensitivityDesc": "Control precision of similar color recognition",
+        "minPercentage": "Min Percentage",
+        "minPercentageDesc": "Minimum percentage threshold for colors in image",
+        "apply": "Apply Settings",
+        "tip": {
+          "title": "Settings Guide",
+          "description": "Adjust these parameters for more precise color extraction results"
+        }
+      }
+    },
+    "picker": {
+      "title": "Image Preview",
+      "activate": "Pick Color",
+      "deactivate": "Exit Picker",
+      "active": "Pick Mode",
+      "inactive": "Color Picker",
+      "zoomIn": "Zoom In",
+      "zoomOut": "Zoom Out",
+      "reset": "Reset",
+      "selectedColor": "Selected Color",
+      "clickToPickColor": "Click image to pick color",
+      "colorPicked": "Color picked",
+      "position": "Position",
+      "zoomLevel": "Zoom Level",
+      "crosshair": "Crosshair",
+      "magnifier": "Magnifier",
+      "hoverInstruction": "Hover to view magnifier, click to select color"
+    },
+    "palette": {
+      "title": "Final Palette",
+      "colors": "colors",
+      "empty": "No colors",
+      "emptySlot": "Empty",
+      "addColor": "Add Color",
+      "removeColor": "Remove Color",
+      "copyHex": "Copy HEX",
+      "copyRgb": "Copy RGB",
+      "copyAll": "Copy All",
+      "reorder": "Drag to reorder",
+      "export": "Export Palette",
+      "primary": "Primary",
+      "secondary": "Secondary",
+      "neutral": "Neutral",
+      "manual": "Manual",
+      "manualPicker": "Manual Picker",
+      "noExtractedColors": "No extracted colors yet",
+      "clickImageToPick": "Click on the image to manually pick colors",
+      "maxColorsReached": "Maximum limit reached (12 colors), please delete some colors to continue picking",
+      "maxColorsReachedShort": "Limit reached",
+      "clear": "Clear",
+      "clearAll": "Clear All",
+      "clearManualColors": "Clear manual colors",
+      "clearConfirm": "Are you sure you want to clear all manual colors? This action cannot be undone.",
+      "copiedColors": "Copied {{count}} colors",
+      "selected": "Selected {{count}}",
+      "copyError": "Copy failed",
+      "copied": "Copied: {{value}}",
+      "emptyDescription": "Upload an image and extract colors, or manually click on the image to add colors to the palette.",
+      "deleteSelected": "Delete selected colors",
+      "movingColor": "Moving color..."
+    },
+    "actions": {
+      "analyze": "Analyze Colors",
+      "reset": "Reset Analysis",
+      "save": "Save Analysis",
+      "export": "Export",
+      "copy": "Copy",
+      "copied": "Copied",
+      "delete": "Delete",
+      "edit": "Edit",
+      "addAllToPalette": "Add All to Palette",
+      "resetConfirm": "Are you sure you want to restart? This will clear the current uploaded image and all analysis results."
+    },
+    "status": {
+      "ready": "Ready",
+      "uploading": "Uploading",
+      "analyzing": "Analyzing",
+      "complete": "Analysis Complete",
+      "error": "Error occurred",
+      "noImage": "Please upload an image first"
+    },
+    "tips": {
+      "title": "Usage Tips",
+      "uploadImage": "Upload an image to automatically extract colors",
+      "clickPicker": "Enable \"Click Picker\" to manually select colors",
+      "dragReorder": "Drag colors in the palette to reorder them",
+      "exportFormats": "Export in multiple formats for different uses"
+    },
+    "export": {
+      "formats": {
+        "hex": {
+          "label": "HEX Color Codes",
+          "description": "Hexadecimal color values"
+        },
+        "rgb": {
+          "label": "RGB Color Codes", 
+          "description": "RGB color values"
+        },
+        "hsl": {
+          "label": "HSL Color Codes",
+          "description": "HSL color values"
+        },
+        "css": {
+          "label": "CSS Variables",
+          "description": "CSS custom properties"
+        },
+        "json": {
+          "label": "JSON Data",
+          "description": "Structured data format"
+        },
+        "image": {
+          "label": "PNG Image",
+          "description": "Color palette image"
+        }
+      },
+      "emptyState": "Add colors to export palette",
+      "export": "Export",
+      "exporting": "Exporting...",
+      "previewContent": "Preview Content",
+      "showPreview": "Show Preview",
+      "hidePreview": "Hide Preview",
+      "imagePreview": "Image Preview",
+      "paletteTitle": "Color Palette",
+      "colorName": "Color",
+      "canvasError": "Unable to create Canvas context",
+      "imageGenerationError": "Unable to generate image",
+      "noColorsError": "No colors to export",
+      "imagePreviewUnavailable": "Image preview unavailable, please export directly to view",
+      "exportError": "Export failed"
+    }
+  },
+  "pixelArt": {
+      "title": "pixel art converter | convert image to pixel art | photo to pixel art",
+      "subtitle": "Intelligent Image Pixelation & Style Conversion",
+      "uploadArea": "Upload Area",
+      "uploadButton": "Upload Image",
+      "dragDropArea": "Drag & Drop Area",
+      "dragDropHint": "Drag & Drop Area",
+      "supportedFormats": "JPG, PNG, GIF",
+      "maxFileSize": "Max 10MB",
+      "modes": {
+        "title": "Pixel Processing Mode",
+        "normal": "Normal Pixel",
+        "original": "Original Pixel", 
+        "isolated": "Isolated Pixel",
+        "enhanced": "Enhanced Pixel"
+      },
+      "parameters": {
+        "pixelSize": "Pixel Size",
+        "colorCount": "Color Count",
+        "edgeDensity": "Edge Density",
+        "sizePresets": {
+          "extraSmall": "XS",
+          "small": "S",
+          "medium": "M",
+          "large": "L", 
+          "extraLarge": "XL"
+        },
+        "edgePresets": {
+          "minimal": "Min",
+          "low": "Low",
+          "medium": "Med",
+          "high": "High", 
+          "maximum": "Max"
+        }
+      },
+      "palette": {
+        "title": "Palette",
+        "retro": "Retro",
+        "neon": "Neon",
+        "blackWhite": "B&W"
+      },
+             "filters": {
+         "title": "Filters",
+         "none": "None",
+         "retro": "Retro",
+         "neon": "Neon", 
+         "blackWhite": "B&W"
+       },
+      "preview": {
+        "title": "Preview Area",
+        "originalImage": "Original",
+        "pixelizedImage": "Pixelized",
+        "demoEffect": "Demo Effect - Upload your image to start creating!",
+        "realtimePreview": "Real-time Preview",
+        "demoImage": "Demo Image",
+        "demoResult": "Demo Effect",
+        "demoMode": "Demo Mode - Try uploading your image!",
+        "generating": "Generating...",
+        "previewPlaceholder": "Pixel Art Preview",
+        "adjustParams": "Adjust parameters to see different effects",
+        "generatePixelArt": "Generate Pixel Art"
+      },
+      "download": {
+        "png": "Download PNG",
+        "jpg": "Download JPG"
+      },
+      "status": {
+        "processing": "Processing...",
+        "failed": "Processing Failed",
+        "completed": "Conversion Complete",
+        "selectFileFirst": "Please select an image file first",
+        "formatNotSupported": "Only PNG and JPG formats supported",
+        "fileTooLarge": "File size cannot exceed 10MB"
+      }
+    }
+  } 

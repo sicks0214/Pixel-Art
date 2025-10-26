@@ -1,0 +1,1043 @@
+{
+  "nav": {
+    "home": "홈",
+    "about": "소개",
+    "contact": "문의하기",
+    "backToHome": "홈으로 돌아가기",
+    "settings": "설정",
+    "title": "ColorMagic",
+    "generator": "생성기",
+    "random": "랜덤",
+    "fromImage": "이미지에서",
+    "mixer": "믹서",
+    "contrast": "대비",
+    "login": "로그인"
+  },
+  "common": {
+    "loading": "로딩 중...",
+    "error": "오류",
+    "success": "성공",
+    "cancel": "취소",
+    "confirm": "확인",
+    "save": "저장",
+    "delete": "삭제",
+    "edit": "편집",
+    "create": "만들기",
+    "upload": "업로드",
+    "download": "다운로드",
+    "free": "무료",
+    "paid": "유료",
+    "comingSoon": "곧 출시",
+    "underDevelopment": "개발 중",
+    "language": "언어",
+    "reset": "재설정",
+    "copy": "복사",
+    "copied": "복사됨!",
+    "generating": "생성 중...",
+    "generated": "생성 완료",
+    "failed": "실패",
+    "search": "검색",
+    "back": "뒤로"
+  },
+  "breadcrumb": {
+    "generator": "컬러 생성기",
+    "explore": "탐색"
+  },
+  "page": {
+    "title": "다크 컬러 팔레트",
+    "subtitle": "우아한 다크 컬러 팔레트로 세련된 디자인을 만들어보세요. 모던하고 프리미엄한 미학에 완벽한 풍부하고 깊은 톤을 발견하세요!",
+    "inputPlaceholder": "분위기를 설정할 키워드, 장면 설명 또는 추상적 영감을 입력하세요",
+    "generate": "컬러 팔레트 생성",
+    "paletteTitle": "{{name}}",
+    "brightness": "밝기",
+    "saturation": "채도",
+    "warmth": "따뜻함",
+    "download": "팔레트 내보내기",
+    "landscape": "가로",
+    "square": "정사각형",
+    "css": "CSS 클래스",
+    "linear": "선형 그라데이션",
+    "radial": "방사형 그라데이션"
+  },
+  "colorcraft": {
+    "title": "ColorMagic",
+    "subtitle": "다크 컬러 팔레트",
+    "description": "우아한 다크 컬러 팔레트를 발견하고, 풍부하고 깊은 톤으로\n세련되고 모던한 디자인을 만들어보세요!\n완전 무료!",
+    "features": {
+      "aiPowered": {
+        "title": "AI 기반",
+        "description": "고급 알고리즘으로 매력적인 색상 조합을 생성"
+      },
+      "instantResults": {
+        "title": "즉시 결과",
+        "description": "초 단위로 아름다운 팔레트 생성"
+      },
+      "multipleFormats": {
+        "title": "다양한 형식",
+        "description": "모든 프로젝트에 대응하는 다양한 형식으로 내보내기"
+      }
+    },
+    "navigation": {
+      "backToGenerator": "생성기로 돌아가기",
+      "color01": "다크 컬러 팔레트",
+      "color02": "컬러 네임 파인더",
+
+      "color04": "컬러 분석",
+      "color05": "고급 도구"
+    },
+    "adjust": {
+      "title": "팔레트 조정",
+      "resetToOriginal": "원본으로 재설정",
+      "save": "저장",
+      "saving": "저장 중...",
+      "saved": "저장됨!",
+      "error": "오류",
+      "brightness": "밝기",
+      "saturation": "채도",
+      "warmth": "따뜻함",
+      "dark": "어두운",
+      "original": "원본",
+      "bright": "밝은",
+      "gray": "회색",
+      "vivid": "선명한",
+      "cool": "시원한",
+      "warm": "따뜻한",
+      "modified": "수정됨",
+      "hasUnsavedChanges": "저장되지 않은 변경사항이 있습니다. \"저장\"을 클릭하여 조정사항을 보존하세요."
+    },
+    "export": {
+      "title": "팔레트 내보내기",
+      "landscape": "가로",
+      "portrait": "세로",
+      "square": "정사각형",
+      "codeExport": "코드 내보내기",
+      "cssClasses": "CSS 클래스",
+      "linearGradient": "선형 그라데이션",
+      "radialGradient": "방사형 그라데이션"
+    },
+    "colors": {
+      "copyHex": "HEX 복사",
+      "copied": "복사됨!"
+    },
+    "status": {
+      "paletteGeneratedSuccessfully": "✨ 팔레트가 성공적으로 생성되었습니다!",
+      "redirectingToResults": "결과로 리디렉션 중...",
+      "generationFailed": "생성 실패",
+      "noPaletteFound": "팔레트를 찾을 수 없음",
+      "goBack": "돌아가기"
+    },
+    "examples": {
+      "title": "이런 예시를 시도해 보세요:",
+      "oceanSunset": "자정의 바다",
+      "forestMorning": "어두운 숲",
+      "cityLights": "네온 나이트",
+      "vintageCoffee": "진한 에스프레소",
+      "modernMinimalist": "엘리트 블랙"
+    },
+    "placeholders": {
+      "imageAnalysis": {
+        "title": "컬러 네임 파인더",
+        "description": "모든 색상의 이름을 식별하고 찾기"
+      },
+      "brandColors": {
+        "title": "브랜드 컬러",
+        "description": "브랜드를 위한 전문적인 컬러 스키마 생성"
+      },
+      "colorAnalysis": {
+        "title": "컬러 분석",
+        "description": "색상 조화와 효과의 심층 분석"
+      },
+      "advancedTools": {
+        "title": "고급 도구",
+        "description": "전문적인 컬러 관리 및 조정 도구"
+      },
+      "comingSoon": "기능 개발 중, 곧 만나보세요..."
+    }
+  },
+  "about": {
+    "title": "소개",
+    "description": "ColorMagic은 현대적인 웹 애플리케이션 개발 프레임워크입니다",
+    "subtitle": "개발자에게 최고의 웹 애플리케이션 개발 솔루션을 제공하는 데 전념하고 있습니다",
+    "features": {
+      "title": "핵심 기능",
+      "responsive": "반응형 디자인",
+      "modular": "모듈형 아키텍처",
+      "international": "다국어 지원",
+      "plugin": "플러그인 시스템"
+    },
+    "tech": {
+      "title": "기술 스택"
+    },
+    "contact": {
+      "title": "문의하기",
+      "description": "질문이나 제안이 있으시면 언제든지 문의해 주세요",
+      "link": "메시지 보내기"
+    }
+  },
+  "contact": {
+    "title": "문의하기",
+    "description": "문의 양식 및 연락처 정보",
+    "subtitle": "피드백과 제안을 들려주세요",
+    "info": {
+      "title": "연락처 정보",
+      "email": "이메일 주소",
+      "address": "주소",
+      "addressValue": "서울특별시 강남구, 한국",
+      "phone": "전화번호"
+    },
+    "form": {
+      "title": "메시지 보내기",
+      "name": "이름",
+      "email": "이메일",
+      "subject": "제목",
+      "message": "메시지",
+      "send": "메시지 보내기",
+      "sending": "전송 중..."
+    },
+    "success": "메시지가 성공적으로 전송되었습니다! 가능한 한 빨리 답변드리겠습니다."
+  },
+  "home": {
+    "title": "AI 밈 메이커",
+    "subtitle": "스마트 카툰화, 전문 편집, 배치 처리를 지원하는 전문 AI 기반 밈 제작 플랫폼. 개인화된 밈을 쉽게 만들어 소셜 미디어와 마케팅 효과를 높이세요.",
+    "hero": {
+      "badge": "완전 무료 밈 제작 도구",
+      "mainTitle": "무료로",
+      "highlightTitle": "밈 제작",
+      "description": "완전 무료 온라인 밈 제작 도구, 텍스트, 스티커, 말풍선 등의 요소를 지원. AI 카툰화 등의 고급 기능도 이용 가능.",
+      "startButton": "무료로 제작 시작",
+      "advancedButton": "AI 고급 기능 체험"
+    },
+    "stats": {
+      "users": "사용자 수",
+      "images": "처리된 이미지", 
+      "rating": "사용자 평가",
+      "templates": "템플릿 수"
+    },
+    "features": {
+      "title": "강력한 기능",
+      "subtitle": "밈 제작 요구사항을 위한 원스톱 솔루션",
+      "items": {
+        "freeMemeCreation": {
+          "title": "무료 밈 제작",
+          "description": "완전 무료 밈 제작 도구, 텍스트, 스티커, 말풍선 등 다양한 요소 지원, 무제한 사용"
+        },
+        "professionalEditing": {
+          "title": "전문 편집 도구",
+          "description": "풍부한 텍스트, 필터, 특수 효과 도구로 더욱 개성 있고 전문적인 창작"
+        },
+        "multiFormatSupport": {
+          "title": "다중 포맷 지원",
+          "description": "JPG, PNG, WebP 등 다양한 포맷 지원, 지능형 압축으로 최고 품질 보장"
+        },
+        "fastProcessing": {
+          "title": "고속 처리",
+          "description": "최적화된 처리 알고리즘으로 초 단위 이미지 처리 완료, 창작 효율성 향상"
+        },
+        "aiCartoonization": {
+          "title": "AI 스마트 카툰화",
+          "description": "고급 인공지능 기술을 사용하여 원클릭으로 실제 사진을 생생하고 재미있는 카툰 스타일로 변환"
+        },
+        "privacyProtection": {
+          "title": "개인정보 보호",
+          "description": "로컬 처리 기술로 이미지 데이터 안전 보장, 개인정보 완전 보호"
+        }
+      }
+    },
+    "useCases": {
+      "title": "사용 사례",
+      "subtitle": "어떤 요구사항이든 충족합니다",
+      "social": {
+        "title": "소셜 미디어",
+        "description": "재미있는 아바타와 밈을 만들어 소셜 상호작용을 더욱 활발하게"
+      },
+      "business": {
+        "title": "비즈니스 마케팅", 
+        "description": "눈길을 끄는 마케팅 자료를 만들어 브랜드 커뮤니케이션 향상"
+      },
+      "education": {
+        "title": "교육 및 훈련",
+        "description": "매력적인 교육 자료를 만들어 학습을 더욱 재미있고 효과적으로"
+      },
+      "personal": {
+        "title": "개인 창작",
+        "description": "창의력을 발휘하여 독특한 예술 작품 제작"
+      }
+    },
+    "testimonials": {
+      "title": "사용자 평가",
+      "subtitle": "실제 사용자들의 경험담을 들어보세요",
+      "items": [
+        {
+          "name": "김민수",
+          "role": "디자이너",
+          "content": "이 도구는 정말 훌륭합니다! AI 카툰화 효과가 매우 자연스럽고 작업 효율성을 크게 향상시켰습니다."
+        },
+        {
+          "name": "박지영",
+          "role": "마케팅 디렉터",
+          "content": "우리 팀은 이제 이 도구를 사용하여 마케팅 자료를 만들고 있으며, 결과가 예상보다 훨씬 좋습니다!"
+        },
+        {
+          "name": "이준호",
+          "role": "학생",
+          "content": "인터페이스가 간단하고 사용하기 쉬우며, 기능이 강력합니다. 제가 본 최고의 밈 제작 도구입니다."
+        }
+      ]
+    },
+    "cta": {
+      "title": "창의적인 여행을 시작할 준비가 되셨나요?",
+      "subtitle": "수십만 사용자의 창작 커뮤니티에 참여하고 AI 기술로 창의적 잠재력을 발휘하세요",
+      "startButton": "무료로 제작 시작",
+      "featuresButton": "고급 기능 보기",
+      "features": [
+        "완전 무료",
+        "등록 불필요", 
+        "개인정보 보호"
+      ]
+    }
+  },
+  "advanced": {
+    "title": "AI 고급 기능",
+    "subtitle": "전문 AI 기반 창작 도구 - 프리미엄 전용",
+    "description": "AI 기반 고급 밈 제작 기능, 스마트 카툰화, 배치 처리, 전문 템플릿 등 프리미엄 기능 포함.",
+    "banner": {
+      "title": "⭐ AI 고급 기능 구역",
+      "subtitle": "다음 기능들은 프리미엄 멤버십이 필요하며 AI 기반 전문 경험을 제공합니다",
+      "limitedOffer": "한정 특가",
+      "price": "₩6,900/월",
+      "upgrade": "지금 업그레이드"
+    },
+    "developmentNotice": {
+      "title": "🚧 개발 중",
+      "subtitle": "저희는 이 흥미진진한 AI 기능들을 열심히 개발하고 있습니다",
+      "description": "AI 고급 기능들이 활발히 개발 중입니다. 스마트 카툰화, 배치 처리, 전문 템플릿 등이 포함됩니다.",
+      "features": [
+        "🎨 스마트 카툰화 - 실제 사진을 카툰 스타일로 변환",
+        "🔄 배치 처리 - 여러 이미지를 한 번에 처리",
+        "📚 전문 템플릿 라이브러리 - 대량의 아름다운 템플릿",
+        "🛠️ 전문 도구 - 고급 편집 기능"
+      ],
+      "timeline": "예상 출시: 2024년 2분기",
+      "notification": "개발이 완료되는 즉시 알려드리겠습니다!",
+      "backToWorkspace": "무료 워크스페이스로 돌아가기"
+    },
+    "developmentMode": {
+      "title": "🚀 개발 환경 모드",
+      "description": "개발 환경에서 AI 밈 메이커를 실행하고 있습니다.",
+      "subtitle": "이제 프로덕션 환경의 '개발 중' 상태에 영향을 주지 않고 AI 고급 기능을 계속 개발할 수 있습니다.",
+      "guide": {
+        "title": "💡 개발 가이드",
+        "howToContinue": {
+          "title": "🛠️ 개발을 계속하는 방법:",
+          "steps": [
+            "AI 기능 컴포넌트를 이 페이지에 가져오기",
+            "현재 개발 모드 표시를 교체하기",
+            "다국어 지원을 위해 useTranslation 사용",
+            "프로덕션 환경에서는 자동으로 '개발 중' 상태 표시"
+          ]
+        },
+        "configuration": {
+          "title": "⚙️ 구성 옵션:",
+          "options": [
+            "frontend/src/config/development.ts 편집",
+            "enableAdvancedFeatures: false 설정으로 프로덕션 상태 테스트",
+            "API 엔드포인트 및 기타 개발 옵션 구성",
+            "localhost, 127.0.0.1 및 dev 도메인 지원"
+          ]
+        },
+        "tip": "이 페이지는 개발 환경에서만 표시됩니다. 프로덕션에 배포하면 사용자는 아름다운 '개발 중' 상태 페이지를 보게 됩니다."
+      },
+      "buttons": {
+        "backToWorkspace": "무료 워크스페이스로 돌아가기",
+        "viewDocs": "프로젝트 문서 보기",
+        "devConfig": "개발 구성"
+      },
+      "configAlert": "구성 파일 위치: frontend/src/config/development.ts\n\n이 파일에서 개발 환경 동작을 제어할 수 있습니다."
+    },
+    "progressTitle": "개발 진행상황",
+    "notifyUpdate": "업데이트 알림 받기",
+    "tabs": {
+      "ai": "AI 기능",
+      "batch": "배치 처리",
+      "templates": "템플릿 라이브러리",
+      "tools": "전문 도구"
+    }
+  },
+  "workspace": {
+    "title": "무료 워크스페이스",
+    "subtitle": "텍스트, 스티커, 말풍선 등 풍부한 도구와 원클릭 내보내기 기능을 제공하는 무료 온라인 밈 제작",
+    "tools": {
+      "title": "창작 도구",
+      "subtitle": "도구를 선택하여 밈 제작을 시작하세요",
+      "text": {
+        "name": "텍스트 추가",
+        "description": "텍스트 내용 추가",
+        "panelTitle": "텍스트 스타일"
+      },
+      "bubble": {
+        "name": "말풍선", 
+        "description": "말풍선 추가",
+        "panelTitle": "말풍선",
+        "comingSoon": "말풍선 기능 개발 중...",
+        "stayTuned": "곧 만나보세요"
+      },
+      "shape": {
+        "name": "기본 도형",
+        "description": "기하학적 도형 추가", 
+        "panelTitle": "기본 도형",
+        "comingSoon": "기본 도형 기능 개발 중...",
+        "stayTuned": "곧 만나보세요"
+      },
+      "sticker": {
+        "name": "이모지 스티커",
+        "description": "이모지 스티커 선택",
+        "panelTitle": "이모지 스티커"
+      },
+      "image": {
+        "name": "이미지 라이브러리",
+        "description": "이미지 소재 관리 및 삽입",
+        "panelTitle": "이미지 라이브러리",
+        "upload": {
+          "quick": "빠른 추가",
+          "batch": "일괄 업로드",
+          "uploading": "업로드 중...",
+          "dragText": "이미지를 여기에 드래그",
+          "clickText": "파일을 선택하세요",
+          "formats": "JPG, PNG, GIF, WebP 형식 지원",
+          "maxSize": "파일당 최대 10MB",
+          "modal": {
+            "title": "이미지 라이브러리에 업로드",
+            "subtitle": "JPG, PNG, GIF, WebP, SVG 형식 지원",
+            "dropText": "파일을 드롭하여 업로드",
+            "batchSupport": "일괄 업로드 지원, 파일당 최대 10MB",
+            "selectedFiles": "선택된 파일",
+            "pending": "대기 중",
+            "success": "성공",
+            "failed": "실패",
+            "uploadTo": "라이브러리에 업로드",
+            "cancel": "취소",
+            "uploadProgress": "업로드 진행률",
+            "removeFile": "파일 제거",
+            "errorFormats": "지원되지 않는 파일 형식입니다. 지원 형식: JPG, PNG, GIF, WebP, SVG",
+            "errorSize": "파일이 너무 큽니다. 최대 크기"
+          }
+        },
+        "library": {
+          "title": "이미지 라이브러리",
+          "count": "개의 이미지",
+          "search": "이미지 검색...",
+          "empty": "이미지가 없습니다",
+          "emptyHint": "위 버튼을 클릭하여 이미지 소재를 추가하세요",
+          "noResults": "일치하는 이미지를 찾을 수 없습니다",
+          "searchHint": "검색 키워드를 수정해 보세요",
+          "selected": "선택됨",
+          "displaying": "표시 중",
+          "total": "총",
+          "insertToCanvas": "캔버스에 삽입",
+          "delete": "이미지 삭제",
+          "clearLibrary": "이미지 라이브러리 지우기",
+          "confirmDelete": "이 이미지를 삭제하시겠습니까?",
+          "confirmClear": "전체 이미지 라이브러리를 지우시겠습니까? 이 작업은 되돌릴 수 없습니다.",
+          "batchDelete": "선택한 이미지 삭제",
+          "files": "개의 파일",
+          "editImage": "이미지 편집",
+          "batchManagement": "일괄 선택 및 관리 가능"
+        },
+        "sort": {
+          "byDate": "날짜순",
+          "byName": "이름순", 
+          "bySize": "크기순",
+          "ascending": "오름차순",
+          "descending": "내림차순"
+        },
+        "view": {
+          "grid": "그리드 보기",
+          "list": "목록 보기"
+        },
+        "editor": {
+          "title": "이미지 편집기",
+          "reset": "모든 설정 재설정",
+          "processing": "처리 중...",
+          "loading": "로딩 중...",
+          "cancel": "취소",
+          "saving": "저장 중...",
+          "saveToLibrary": "라이브러리에 저장",
+          "quickFilters": "빠른 필터",
+          "effects": "효과",
+          "crop": {
+            "title": "이미지 자르기",
+            "developing": "자르기 기능 개발 중...",
+            "enable": "자르기 활성화",
+            "disable": "자르기 취소"
+          },
+          "filters": {
+            "vintage": "빈티지",
+            "dramatic": "드라마틱",
+            "soft": "소프트",
+            "bw": "흑백",
+            "vibrant": "선명한",
+            "retro": "레트로"
+          },
+          "adjustments": {
+            "brightness": "밝기",
+            "contrast": "대비",
+            "saturation": "채도",
+            "blur": "흐림"
+          },
+          "effectLabels": {
+            "grayscale": "그레이스케일",
+            "sepia": "세피아",
+            "invert": "반전"
+          }
+        },
+        "errors": {
+          "processFailed": "이미지 처리에 실패했습니다. 다시 시도해 주세요"
+        },
+        "modal": {
+          "or": "또는",
+          "totalFiles": "총",
+          "files": "개의 파일",
+          "uploadingFile": "업로드 중...",
+          "processingFailed": "이미지 처리 실패"
+        },
+        "performance": {
+          "title": "성능 모니터",
+          "showMonitor": "성능 모니터 표시",
+          "status": {
+            "good": "양호",
+            "warning": "경고",
+            "error": "오류"
+          },
+          "metrics": {
+            "processed": "처리됨",
+            "avgTime": "평균 시간",
+            "memory": "메모리 사용량",
+            "compression": "압축률"
+          },
+          "recentActivity": "최근 활동",
+          "noActivity": "활동 기록이 없습니다",
+          "actions": {
+            "stopMonitoring": "모니터링 중지",
+            "startMonitoring": "모니터링 시작",
+            "clearData": "데이터 지우기",
+            "exportReport": "보고서 내보내기"
+          },
+          "recommendations": {
+            "slowProcessing": "처리 시간이 깁니다. 이미지 품질이나 크기를 낮추는 것을 권장합니다",
+            "highMemory": "메모리 사용량이 높습니다. 이미지 라이브러리를 지우거나 앱을 재시작하는 것을 권장합니다",
+            "highErrors": "오류율이 높습니다. 이미지 형식과 크기 제한을 확인하는 것을 권장합니다",
+            "lowCompression": "압축률이 낮습니다. 압축 매개변수를 조정하는 것을 권장합니다"
+          }
+        }
+      },
+      "defaultState": {
+        "message": "위의 도구를 선택하여 창작을 시작하세요",
+        "hint": "아무 도구 버튼을 클릭하여 옵션 펼치기"
+      }
+    },
+    "textTool": {
+      "presets": {
+        "title": "텍스트 프리셋",
+        "headline": {
+          "name": "제목",
+          "preview": "제목 텍스트"
+        },
+        "subtitle": {
+          "name": "부제목", 
+          "preview": "부제목"
+        },
+        "body": {
+          "name": "본문",
+          "preview": "본문 내용"
+        },
+        "meme": {
+          "name": "밈 텍스트",
+          "preview": "궁금해요"
+        },
+        "comic": {
+          "name": "코믹 스타일",
+          "preview": "BOOM!"
+        },
+        "elegant": {
+          "name": "우아한 스타일",
+          "preview": "우아한 텍스트"
+        }
+      },
+      "input": {
+        "label": "텍스트 내용",
+        "placeholder": "추가할 텍스트를 입력하세요",
+        "defaultText": "밈 텍스트"
+      },
+      "font": {
+        "family": "글꼴",
+        "size": "크기"
+      },
+      "style": {
+        "title": "스타일",
+        "bold": "굵게",
+        "italic": "기울임", 
+        "underline": "밑줄",
+        "alignLeft": "왼쪽 정렬",
+        "alignCenter": "가운데 정렬",
+        "alignRight": "오른쪽 정렬"
+      },
+      "color": {
+        "title": "텍스트 색상"
+      },
+      "effects": {
+        "title": "효과",
+        "shadow": "그림자 효과",
+        "stroke": "테두리 효과",
+        "strokeColor": "테두리 색상"
+      },
+      "preview": {
+        "title": "미리보기",
+        "placeholder": "텍스트 미리보기"
+      },
+      "button": {
+        "add": "캔버스에 추가"
+      }
+    },
+    "toolbar": {
+      "brand": "밈 메이커",
+      "undo": "실행 취소",
+      "undoShortcut": "실행 취소 (Ctrl+Z)",
+      "redo": "다시 실행", 
+      "redoShortcut": "다시 실행 (Ctrl+Y)",
+      "select": "선택",
+      "selectShortcut": "선택 도구 (V)",
+      "text": "텍스트",
+      "textShortcut": "텍스트 도구 (T)",
+      "shape": "도형",
+      "shapeShortcut": "도형 도구 (S)",
+      "upload": "업로드",
+      "uploadShortcut": "이미지 업로드 (U)",
+      "hand": "이동",
+      "handShortcut": "이동 도구 (H)",
+      "grid": "격자",
+      "gridShortcut": "격자 표시 토글",
+      "zoomIn": "확대",
+      "zoomOut": "축소",
+      "resetZoom": "확대/축소 재설정",
+      "delete": "삭제",
+      "deleteSelected": "선택된 요소 삭제",
+      "clear": "지우기",
+      "clearCanvas": "캔버스 지우기",
+      "save": "저장",
+      "saveProject": "프로젝트 저장",
+      "export": "내보내기",
+      "exportMeme": "밈 내보내기",
+      "settings": "설정"
+    },
+    "imageUploader": {
+      "title": "이미지 업로드",
+      "dragText": "클릭하여 업로드하거나 이미지를 여기로 드래그하세요",
+      "dragActiveText": "파일을 놓아서 업로드 시작",
+      "supportedFormats": "지원 형식",
+      "maxSize": "최대",
+      "uploading": "업로드 중...",
+      "uploadSuccess": "성공적으로 업로드됨",
+      "imagesCount": "개 이미지",
+      "uploadedImages": "업로드된 이미지",
+      "addToCanvas": "캔버스에 추가",
+      "delete": "삭제",
+      "errors": {
+        "unsupportedFormat": "지원하지 않는 파일 형식입니다. 지원 형식:",
+        "fileTooBig": "파일이 너무 큽니다. 최대 크기",
+        "uploadFailed": "업로드 실패, 다시 시도해주세요",
+        "readFailed": "파일 읽기 실패"
+      }
+    },
+    "canvas": {
+      "upload": {
+        "title": "이미지 업로드",
+        "dragTitle": "이미지를 놓아서 제작 시작",
+        "dragText": "클릭하여 업로드하거나 이미지를 여기로 드래그하세요",
+        "dragActiveText": "마우스를 놓아서 업로드",
+        "uploading": "업로드 중...",
+        "supportedFormats": "JPG, PNG, GIF, WebP 형식 지원, 최대 10MB",
+        "errors": {
+          "unsupportedFormat": "지원하지 않는 파일 형식입니다. 지원 형식: JPG, PNG, GIF, WEBP",
+          "fileTooBig": "파일이 너무 큽니다. 최대 크기"
+        }
+      }
+    },
+    "rightPanel": {
+      "tabs": {
+        "layers": "레이어",
+        "properties": "속성", 
+        "align": "정렬",
+        "export": "내보내기",
+        "history": "히스토리"
+      },
+      "layers": {
+        "title": "레이어 목록",
+        "count": "개",
+        "empty": {
+          "title": "레이어 없음",
+          "description": "요소를 추가하면 여기에 표시됩니다"
+        },
+        "element": {
+          "text": "텍스트"
+        },
+        "actions": {
+          "hide": "숨기기",
+          "show": "표시",
+          "lock": "잠금",
+          "unlock": "잠금해제"
+        }
+      },
+      "properties": {
+        "canvas": {
+          "title": "캔버스 설정",
+          "backgroundColor": "배경색",
+          "canvasSize": "캔버스 크기"
+        },
+        "element": {
+          "title": "요소 속성",
+          "position": {
+            "x": "X",
+            "y": "Y"
+          },
+          "size": {
+            "width": "너비",
+            "height": "높이"
+          },
+          "rotation": "회전 각도",
+          "opacity": "투명도",
+          "text": {
+            "content": "텍스트 내용",
+            "fontSize": "글자 크기",
+            "color": "텍스트 색상"
+          }
+        },
+        "empty": {
+          "message": "요소를 선택하여 속성 보기"
+        }
+      },
+      "history": {
+        "title": "작업 히스토리",
+        "count": "개",
+        "empty": {
+          "title": "히스토리 없음"
+        }
+      },
+      "export": {
+        "developing": "내보내기 기능 개발 중...",
+        "comingSoon": "고급 내보내기 기능을 기대해 주세요"
+      }
+    },
+    "stickerLibrary": {
+      "search": {
+        "placeholder": "스티커 검색...",
+        "results": "검색 결과",
+        "noResults": "관련 스티커를 찾을 수 없습니다"
+      },
+      "categories": {
+        "all": "전체",
+        "emotions": "감정",
+        "hands": "손짓", 
+        "objects": "물건"
+      },
+      "sections": {
+        "popular": "인기 스티커"
+      },
+      "stickers": {
+        "emotions": {
+          "happy": "행복",
+          "laugh": "웃음",
+          "cute": "귀여움",
+          "cool": "멋짐",
+          "thinking": "생각",
+          "crying": "울음",
+          "angry": "화남",
+          "eyeRoll": "눈동자 굴리기",
+          "surprised": "놀람",
+          "hug": "포옹"
+        },
+        "hands": {
+          "wave": "손 흔들기",
+          "thumbsUp": "좋아요",
+          "thumbsDown": "싫어요",
+          "fist": "주먹",
+          "victory": "승리"
+        },
+        "objects": {
+          "fire": "불",
+          "star": "별",
+          "hundred": "100점",
+          "money": "돈주머니",
+          "party": "파티"
+        }
+      }
+    }
+  },
+  "footer": {
+    "description": "개발자에게 완전한 솔루션을 제공하는 현대적인 웹 애플리케이션 개발 프레임워크",
+    "products": {
+      "title": "제품",
+      "framework": "개발 프레임워크",
+      "components": "컴포넌트 라이브러리",
+      "templates": "템플릿",
+      "api": "API 문서"
+    },
+    "support": {
+      "title": "지원",
+      "guide": "사용자 가이드",
+      "faq": "FAQ",
+      "contact": "문의하기",
+      "privacy": "개인정보 정책"
+    },
+    "copyright": "© 2025 ColorMagic. 모든 권리 보유."
+  },
+  "colorAnalysis": {
+    "title": "컬러 네임 파인더",
+    "subtitle": "모든 색상의 이름을 식별하고 찾기",
+    "description": "모든 소스에서 정확한 색상 이름과 세부 정보를 발견 - 이미지 업로드, 16진 코드 입력 또는 직접 색상 선택",
+    "upload": {
+      "title": "이미지 업로드",
+      "dragText": "이미지를 여기에 드래그 앤 드롭",
+      "clickText": "또는 클릭하여 선택",
+      "supportedFormats": "JPG, PNG, WebP, GIF 형식 지원",
+      "maxSize": "최대 파일 크기: 10MB",
+      "uploading": "업로드 중...",
+      "success": "업로드 성공",
+      "error": "업로드에 실패했습니다. 다시 시도해 주세요",
+      "instructions": "드래그 앤 드롭 업로드와 파일 선택을 지원합니다. 최적의 처리 속도를 위해 이미지 크기가 1920x1080을 초과하지 않는 것을 권장합니다.",
+      "reupload": "다시 업로드"
+    },
+    "extraction": {
+      "title": "컬러 추출",
+      "analyzing": "분석 중...",
+      "colorCount": "컬러 수",
+      "extractColors": "색상 추출",
+      "autoExtracted": "자동 추출",
+      "manualPicked": "수동 추출",
+      "dominantColors": "주요 색상",
+      "extracting": "추출 중",
+      "reExtract": "재추출",
+      "settings": {
+        "title": "분석 설정",
+        "presets": "빠른 프리셋",
+        "preset": {
+          "balanced": "균형",
+          "vibrant": "선명한",
+          "minimal": "미니멀",
+          "detailed": "상세한"
+        },
+        "basic": "기본 설정",
+        "advanced": "고급 설정",
+        "colorCount": "추출 수",
+        "algorithm": "추출 알고리즘",
+        "algorithm.kmeans": "K-means 클러스터링",
+        "algorithm.medianCut": "중앙값 컷",
+        "includeNeutral": "중성 색상 포함",
+        "excludeSimilar": "유사 색상 제외",
+        "sensitivity": "민감도",
+        "sensitivityDesc": "유사 색상 인식의 정밀도를 제어",
+        "minPercentage": "최소 비율",
+        "minPercentageDesc": "이미지 내 색상의 최소 비율 임계값",
+        "apply": "설정 적용",
+        "tip": {
+          "title": "설정 가이드",
+          "description": "이러한 매개변수를 조정하여 더 정확한 컬러 추출 결과를 얻으세요"
+        }
+      }
+    },
+    "picker": {
+      "title": "이미지 미리보기",
+      "activate": "컬러 픽",
+      "deactivate": "피커 종료",
+      "active": "픽 모드",
+      "inactive": "컬러 피커",
+      "zoomIn": "확대",
+      "zoomOut": "축소",
+      "reset": "재설정",
+      "selectedColor": "선택된 색상",
+      "clickToPickColor": "이미지를 클릭하여 색상 추출",
+      "colorPicked": "색상이 추출되었습니다",
+      "position": "위치",
+      "zoomLevel": "확대 수준",
+      "crosshair": "십자선",
+      "magnifier": "돋보기",
+      "hoverInstruction": "마우스를 올려 돋보기를 표시하고, 클릭하여 색상을 선택하세요"
+    },
+    "palette": {
+      "title": "최종 팔레트",
+      "colors": "색상",
+      "empty": "색상 없음",
+      "emptySlot": "빈 슬롯",
+      "addColor": "색상 추가",
+      "removeColor": "색상 제거",
+      "copyHex": "HEX 복사",
+      "copyRgb": "RGB 복사",
+      "copyAll": "모두 복사",
+      "reorder": "드래그하여 순서 변경",
+      "export": "팔레트 내보내기",
+      "primary": "주요",
+      "secondary": "보조",
+      "neutral": "중성",
+      "manual": "수동",
+      "manualPicker": "수동 추출",
+      "noExtractedColors": "아직 추출된 색상이 없습니다",
+      "clickImageToPick": "이미지를 클릭하여 수동으로 색상을 추출하세요",
+      "maxColorsReached": "최대 한도에 도달했습니다(12색), 색상을 삭제한 후 추출을 계속하세요",
+      "maxColorsReachedShort": "한도 도달",
+      "clear": "지우기",
+      "clearAll": "모두 지우기",
+      "clearManualColors": "수동 추출 지우기",
+      "clearConfirm": "모든 수동 추출 색상을 지우시겠습니까? 이 작업은 되돌릴 수 없습니다.",
+      "copiedColors": "{{count}}색상을 복사했습니다",
+      "selected": "{{count}}개 선택됨",
+      "copyError": "복사에 실패했습니다",
+      "copied": "복사됨: {{value}}",
+      "emptyDescription": "이미지를 업로드하여 색상을 추출하거나, 이미지를 수동으로 클릭하여 팔레트에 색상을 추가하세요.",
+      "deleteSelected": "선택된 색상 삭제",
+      "movingColor": "색상 이동 중..."
+    },
+    "actions": {
+      "analyze": "색상 분석",
+      "reset": "분석 재설정",
+      "save": "분석 저장",
+      "export": "내보내기",
+      "copy": "복사",
+      "copied": "복사됨",
+      "delete": "삭제",
+      "edit": "편집",
+      "addAllToPalette": "모두 팔레트에 추가",
+      "resetConfirm": "다시 시작하시겠습니까? 현재 업로드된 이미지와 모든 분석 결과가 지워집니다."
+    },
+    "status": {
+      "ready": "준비 완료",
+      "uploading": "업로드 중",
+      "analyzing": "분석 중",
+      "complete": "분석 완료",
+      "error": "오류가 발생했습니다",
+      "noImage": "먼저 이미지를 업로드해 주세요"
+    },
+    "tips": {
+      "title": "사용 팁",
+      "uploadImage": "이미지를 업로드하여 자동으로 색상을 추출하세요",
+      "clickPicker": "'컬러 픽'을 활성화하여 수동으로 색상을 선택하세요",
+      "dragReorder": "팔레트 내에서 색상을 드래그하여 순서를 변경하세요",
+      "exportFormats": "다양한 용도에 맞게 여러 형식으로 내보내기 가능"
+    },
+    "export": {
+      "formats": {
+        "hex": {
+          "label": "HEX 컬러 코드",
+          "description": "16진수 컬러 값"
+        },
+        "rgb": {
+          "label": "RGB 컬러 코드",
+          "description": "RGB 컬러 값"
+        },
+        "hsl": {
+          "label": "HSL 컬러 코드",
+          "description": "HSL 컬러 값"
+        },
+        "css": {
+          "label": "CSS 변수",
+          "description": "CSS 커스텀 속성"
+        },
+        "json": {
+          "label": "JSON 데이터",
+          "description": "구조화된 데이터 형식"
+        },
+        "image": {
+          "label": "PNG 이미지",
+          "description": "컬러 팔레트 이미지"
+        }
+      },
+      "emptyState": "색상을 추가하여 팔레트를 내보내세요",
+      "export": "내보내기",
+      "exporting": "내보내는 중...",
+      "previewContent": "미리보기 콘텐츠",
+      "showPreview": "미리보기 표시",
+      "hidePreview": "미리보기 숨기기",
+      "imagePreview": "이미지 미리보기",
+      "paletteTitle": "컬러 팔레트",
+      "colorName": "색상",
+      "canvasError": "Canvas 컨텍스트를 생성할 수 없습니다",
+      "imageGenerationError": "이미지를 생성할 수 없습니다",
+      "noColorsError": "내보낼 색상이 없습니다",
+      "imagePreviewUnavailable": "이미지 미리보기를 사용할 수 없습니다. 직접 내보내서 확인해 주세요",
+      "exportError": "내보내기에 실패했습니다"
+    }
+  },
+  "pixelArt": {
+    "title": "픽셀 아트 생성기 | 이미지를 픽셀 아트로 변환 | 사진을 픽셀화",
+    "subtitle": "지능형 이미지 픽셀화 및 스타일 변환",
+    "uploadArea": "업로드 영역",
+    "uploadButton": "이미지 업로드",
+    "dragDropArea": "드래그 앤 드롭 영역",
+    "dragDropHint": "드래그 앤 드롭 영역",
+    "supportedFormats": "JPG, PNG, GIF",
+    "maxFileSize": "최대 10MB",
+    "modes": {
+      "title": "픽셀 처리 모드",
+      "normal": "일반 픽셀",
+      "original": "원본 픽셀", 
+      "isolated": "분리된 픽셀",
+      "enhanced": "향상된 픽셀"
+    },
+    "parameters": {
+      "pixelSize": "픽셀 크기",
+      "colorCount": "색상 수",
+      "edgeDensity": "경계 밀도",
+              "sizePresets": {
+          "extraSmall": "XS",
+          "small": "S",
+          "medium": "M",
+          "large": "L", 
+          "extraLarge": "XL"
+        },
+        "edgePresets": {
+          "minimal": "최소",
+          "low": "낮음",
+          "medium": "보통",
+          "high": "높음", 
+          "maximum": "최대"
+        }
+    },
+    "palette": {
+      "title": "팔레트",
+      "retro": "레트로",
+      "neon": "네온",
+      "blackWhite": "흑백"
+    },
+           "filters": {
+         "title": "필터",
+         "none": "없음",
+         "retro": "레트로",
+         "neon": "네온", 
+         "blackWhite": "흑백"
+       },
+    "preview": {
+      "title": "미리보기 영역",
+      "originalImage": "원본",
+      "pixelizedImage": "픽셀화된 이미지",
+      "demoEffect": "데모 효과 - 이미지를 업로드하여 제작을 시작하세요!",
+      "realtimePreview": "실시간 미리보기",
+      "demoImage": "데모 이미지",
+      "demoResult": "데모 효과",
+      "demoMode": "데모 모드 - 이미지 업로드를 시도해보세요!",
+      "generating": "생성 중...",
+      "previewPlaceholder": "픽셀 아트 미리보기",
+      "adjustParams": "매개변수를 조정하여 다른 효과 확인",
+      "generatePixelArt": "픽셀 아트 생성"
+    },
+    "download": {
+      "png": "PNG 다운로드",
+      "jpg": "JPG 다운로드"
+    },
+    "status": {
+      "processing": "처리 중...",
+      "failed": "처리 실패",
+      "completed": "변환 완료",
+      "selectFileFirst": "먼저 이미지 파일을 선택하세요",
+      "formatNotSupported": "PNG 및 JPG 형식만 지원",
+      "fileTooLarge": "파일 크기는 10MB를 초과할 수 없습니다"
+    }
+  }
+} 

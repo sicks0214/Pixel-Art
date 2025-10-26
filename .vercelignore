@@ -1,0 +1,41 @@
+# 后端文件 - 只部署前端
+backend/
+
+# 文档文件
+docs/
+*.md
+!README.md
+!frontend/README.md
+
+# 配置文件
+railway.json
+docker-compose.yml
+.railway/
+
+# 日志文件
+logs/
+*.log
+
+# 环境文件
+.env*
+!.env.example
+
+# 开发工具
+.vscode/
+.idea/
+.git/
+
+# 依赖目录（仅根目录，不影响frontend/node_modules）
+/node_modules/
+
+# 临时文件
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# 脚本文件
+scripts/
+
+# 共享目录（如果不需要）
+shared/
