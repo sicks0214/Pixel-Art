@@ -17,7 +17,7 @@ const TermsOfServicePage: React.FC = () => {
       <SEO
         title="Terms of Service - Pixel Art Converter"
         description="Terms of Service for Pixel Art Converter. Read our terms and conditions for using our service."
-        url="https://pixelartland.cc/terms"
+        url="https://pixelartland.cc/terms/"
       />
       <div className="max-w-4xl mx-auto px-4 py-8">
         {/* Header */}

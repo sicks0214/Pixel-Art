@@ -18,7 +18,7 @@ const NotFoundPage: React.FC = () => {
       <SEO
         title="404 - Page Not Found | Pixel Art Converter"
         description="The page you're looking for doesn't exist. Return to Pixel Art Converter homepage."
-        url="https://pixelartland.cc/404"
+        url="https://pixelartland.cc/"
       />
       <div className="max-w-md w-full text-center">
         {/* 404动画图标 */}

@@ -19,7 +19,7 @@ const PixelArtHomePage: React.FC = () => {
         title="Pixel Art Converter - Convert Images to Retro Pixel Art"
         description="Convert images to pixel art with 4 pixelation modes, adjustable colors (4-256), and real-time preview. Export PNG/JPG for games and retro art."
         keywords="pixel art, pixel art converter, image to pixel art, retro art, 8-bit art, pixelate image, pixel art generator"
-        url="https://pixelartland.cc"
+        url="https://pixelartland.cc/"
       />
       
       {/* 导航栏 - 简化版 */}

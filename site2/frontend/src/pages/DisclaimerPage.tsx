@@ -15,7 +15,7 @@ const DisclaimerPage: React.FC = () => {
       <SEO
         title="Disclaimer - Pixel Art Converter"
         description="Disclaimer for Pixel Art Converter. Important information about the use of our service."
-        url="https://pixelartland.cc/disclaimer"
+        url="https://pixelartland.cc/disclaimer/"
       />
       <div className="max-w-4xl mx-auto px-4 py-8">
         {/* Header */}

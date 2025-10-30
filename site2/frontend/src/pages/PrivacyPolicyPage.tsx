@@ -17,7 +17,7 @@ const PrivacyPolicyPage: React.FC = () => {
       <SEO
         title="Privacy Policy - Pixel Art Converter"
         description="Privacy Policy for Pixel Art Converter. Learn how we protect your data and respect your privacy."
-        url="https://pixelartland.cc/privacy"
+        url="https://pixelartland.cc/privacy/"
       />
       <div className="max-w-4xl mx-auto px-4 py-8">
         {/* Header */}
