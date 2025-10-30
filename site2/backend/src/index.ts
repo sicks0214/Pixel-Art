@@ -13,20 +13,12 @@ import { initializeRedis, isRedisConnected, closeRedisConnection } from './servi
 import { getPixelArtCacheManager } from './services/cache/pixelArtCache'
 import { logger } from './services/pixelArt/errorHandler'
 
-// 加载环境变量 - Railway兼容配置
-const isRailway = !!(process.env.RAILWAY_ENVIRONMENT_NAME || process.env.RAILWAY_PROJECT_ID)
+// 加载环境变量 - VPS配置
 const isProduction = process.env.NODE_ENV === 'production'
 
-if (!isProduction && !isRailway) {
+if (!isProduction) {
   // 本地开发环境加载.env文件
   dotenv.config({ path: '.env' })
-}
-
-// Railway环境日志
-if (isRailway) {
-  console.log('🚂 Railway environment detected')
-  console.log(`📊 Environment: ${process.env.NODE_ENV || 'development'}`)
-  console.log(`🆔 Railway Project: ${process.env.RAILWAY_PROJECT_ID || 'N/A'}`)
 }
 
 const app = express()
@@ -67,7 +59,7 @@ const rateLimitMiddleware = (req: express.Request, res: express.Response, next: 
   next()
 }
 
-// 中间件 - Railway + Vercel + VPS兼容的CORS配置
+// 中间件 - VPS CORS配置
 const getAllowedOrigins = (): (string | RegExp)[] => {
   const origins: (string | RegExp)[] = []
   
@@ -86,20 +78,9 @@ const getAllowedOrigins = (): (string | RegExp)[] => {
     console.log('📍 VPS ALLOWED_ORIGINS:', allowedOriginsArray)
   }
   
-  // 生产环境 - Vercel域名
-  if (process.env.VERCEL_FRONTEND_URL) {
-    origins.push(process.env.VERCEL_FRONTEND_URL)
-  }
-  
   // 自定义前端URL（降级方案）
   if (process.env.FRONTEND_URL) {
     origins.push(process.env.FRONTEND_URL)
-  }
-  
-  // Vercel预览部署域名模式
-  if (process.env.NODE_ENV === 'production') {
-    // 允许所有Vercel域名
-    origins.push(/^https:\/\/.*\.vercel\.app$/)
   }
   
   console.log('🌐 允许的CORS源:', origins)
@@ -143,7 +124,7 @@ app.use(express.urlencoded({ extended: true }))
 // 应用速率限制
 app.use('/api/', rateLimitMiddleware)
 
-// 先行健康检查路由（绕过CORS/速率限制），用于Railway探针
+// 先行健康检查路由（绕过CORS/速率限制）
 app.get('/api/health', (req, res) => {
 	res.status(200).json({ status: 'ok', timestamp: new Date().toISOString() })
 })
@@ -240,7 +221,7 @@ async function initializeServices(): Promise<void> {
 		console.log('🔧 开始初始化服务...')
 		
 		// 检查是否为开发环境
-		const isDev = !isProduction && !isRailway
+		const isDev = !isProduction
 		
 		if (isDev) {
 			console.log('🛠️  开发环境检测：跳过外部服务依赖')
@@ -288,44 +269,30 @@ async function initializeServices(): Promise<void> {
 	}
 }
 
-// 非 Serverless 环境启动 HTTP 服务（Railway/本地）
-const isServerless = !!process.env.VERCEL
-if (!isServerless) {
-	// 异步启动服务器
-	initializeServices().then(() => {
-		const server = app.listen(PORT, '0.0.0.0', () => {
-			console.log(`🚀 Server running on port ${PORT}`)
-			if (isRailway) {
-				console.log(`🚂 Railway Health check: https://your-app.railway.app/api/health`)
-			} else {
-				console.log(`📊 Health check: http://localhost:${PORT}/api/health`)
-			}
-			console.log(`🎮 COLOR03 Pixel Art API: http://localhost:${PORT}/api/color03/pixel-art/convert`)
-			
-			// 显示缓存状态
-			if (isRedisConnected()) {
-				console.log(`🗄️  缓存服务: ✅ 已启用`)
-			} else {
-				console.log(`🗄️  缓存服务: ❌ 未启用`)
-			}
-		})
+// 启动 HTTP 服务（VPS部署）
+initializeServices().then(() => {
+	const server = app.listen(PORT, '0.0.0.0', () => {
+		console.log(`🚀 Server running on port ${PORT}`)
+		console.log(`📊 Health check: http://localhost:${PORT}/api/health`)
+		console.log(`🎮 COLOR03 Pixel Art API: http://localhost:${PORT}/api/color03/pixel-art/convert`)
 		
-		return server
-	}).catch(error => {
-		console.error('❌ 服务器启动失败:', error)
-		process.exit(1)
-	}).then(server => {
-		if (server) {
-			setupGracefulShutdown(server)
+		// 显示缓存状态
+		if (isRedisConnected()) {
+			console.log(`🗄️  缓存服务: ✅ 已启用`)
+		} else {
+			console.log(`🗄️  缓存服务: ❌ 未启用`)
 		}
 	})
-} else {
-	// Serverless环境（Vercel）：初始化但不启动HTTP服务器
-	initializeServices().catch(error => {
-		logger.error('App', 'Serverless环境服务初始化失败', error as Error)
-		console.warn('⚠️  Serverless环境服务初始化失败:', error)
-	})
-}
+	
+	return server
+}).catch(error => {
+	console.error('❌ 服务器启动失败:', error)
+	process.exit(1)
+}).then(server => {
+	if (server) {
+		setupGracefulShutdown(server)
+	}
+})
 
 // 设置优雅关闭
 function setupGracefulShutdown(server: any): void {
@@ -358,5 +325,5 @@ function setupGracefulShutdown(server: any): void {
 	process.on('SIGINT', gracefulShutdown)
 }
 
-// Vercel部署导出
+// 导出app实例供测试使用
 export default app 

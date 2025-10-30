@@ -60,9 +60,7 @@ export class RedisClientManager {
       this.connectionStatus = 'connecting'
       
       // 检查是否为开发环境，开发环境直接跳过
-      const isDevelopment = process.env.NODE_ENV !== 'production' && 
-                           !process.env.RAILWAY_ENVIRONMENT_NAME && 
-                           !process.env.RAILWAY_PROJECT_ID
+      const isDevelopment = process.env.NODE_ENV !== 'production'
       
       if (isDevelopment && !process.env.FORCE_REDIS_IN_DEV) {
         console.log('🛠️  开发环境：跳过Redis连接，使用内存缓存')

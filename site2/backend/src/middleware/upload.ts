@@ -1,8 +1,8 @@
 import multer from 'multer'
 import { Request, Response, NextFunction } from 'express'
 
-// Vercel兼容的文件上传配置
-// 使用内存存储，避免文件系统写入
+// 文件上传配置
+// 使用内存存储，高效处理文件上传
 const storage = multer.memoryStorage()
 
 // 配置multer

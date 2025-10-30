@@ -1,10 +1,9 @@
 import React from 'react'
-import { useTranslation } from 'react-i18next'
 import { ArrowLeft } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
+import SEO from '@/components/SEO'
 
 const DisclaimerPage: React.FC = () => {
-  const { t } = useTranslation()
   const navigate = useNavigate()
 
   const handleBack = () => {
@@ -13,6 +12,11 @@ const DisclaimerPage: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEO
+        title="Disclaimer - Pixel Art Converter"
+        description="Disclaimer for Pixel Art Converter. Important information about the use of our service."
+        url="https://pixelartland.cc/disclaimer"
+      />
       <div className="max-w-4xl mx-auto px-4 py-8">
         {/* Header */}
         <div className="mb-8">

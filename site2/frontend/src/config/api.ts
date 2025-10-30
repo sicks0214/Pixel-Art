@@ -1,5 +1,5 @@
 /**
- * API配置 - Vercel + Railway部署方案
+ * API配置 - VPS部署方案
  */
 
 // 获取API基础URL
@@ -14,9 +14,9 @@ export const getApiBaseUrl = (): string => {
     return 'http://localhost:3001';
   }
   
-  // 生产环境警告
-  console.warn('⚠️ VITE_API_URL 环境变量未设置，请在Vercel控制台配置');
-  return 'https://surprising-renewal-production.up.railway.app'; // 使用实际Railway URL
+  // 生产环境：应该通过环境变量配置
+  console.error('❌ VITE_API_URL 环境变量未设置，请在.env文件中配置');
+  return window.location.origin; // 使用当前域名
 };
 
 // API配置

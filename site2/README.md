@@ -44,7 +44,6 @@ npm run dev
 site2/
 ├── frontend/           # React前端应用
 ├── backend/            # Node.js后端API
-├── api/                # Vercel Serverless Functions
 ├── scripts/            # 工具脚本
 ├── docs/               # 项目文档（在根目录）
 ├── deploy-site2.sh     # Site2部署脚本
@@ -83,7 +82,7 @@ site2/
 ### 部署
 - Docker
 - Nginx Proxy Manager
-- Vercel / Railway (云平台可选)
+- VPS自托管
 
 ---
 

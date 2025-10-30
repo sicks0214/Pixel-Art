@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "cd frontend && npm run dev",
     "build": "cd frontend && npm run build",
-    "preview": "cd frontend && npm run preview",
-    "vercel-build": "cd frontend && npm run build"
+    "preview": "cd frontend && npm run preview"
   },
   "engines": {
     "node": ">=18.0.0",

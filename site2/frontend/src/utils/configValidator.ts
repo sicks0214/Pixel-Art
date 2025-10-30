@@ -53,8 +53,8 @@ export function validateFrontendConfig(): ConfigValidationResult {
   }
 
   // API连接检查
-  if (API_CONFIG.baseURL.includes('your-app.railway.app')) {
-    errors.push('API_CONFIG.baseURL 仍使用占位符，请配置正确的后端URL')
+  if (API_CONFIG.baseURL.includes('localhost') && !env.DEV) {
+    errors.push('生产环境不应使用 localhost，请配置正确的VPS后端URL')
   }
 
   // 开发环境特定检查

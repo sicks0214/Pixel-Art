@@ -7,6 +7,7 @@ import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Home, ArrowLeft, Palette } from 'lucide-react'
 import Button from '@/components/UI/Button'
+import SEO from '@/components/SEO'
 
 const NotFoundPage: React.FC = () => {
   const navigate = useNavigate()
@@ -14,6 +15,11 @@ const NotFoundPage: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-blue-50 flex items-center justify-center px-4">
+      <SEO
+        title="404 - Page Not Found | Pixel Art Converter"
+        description="The page you're looking for doesn't exist. Return to Pixel Art Converter homepage."
+        url="https://pixelartland.cc/404"
+      />
       <div className="max-w-md w-full text-center">
         {/* 404动画图标 */}
         <div className="mb-8">

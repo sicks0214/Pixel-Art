@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { ArrowLeft } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
+import SEO from '@/components/SEO'
 
 const ContactPage: React.FC = () => {
   const { t } = useTranslation()
@@ -53,6 +54,11 @@ const ContactPage: React.FC = () => {
   if (isSubmitted) {
     return (
       <div className="min-h-screen bg-purple-50">
+        <SEO
+          title="Thank You - Pixel Art Converter"
+          description="Thank you for contacting Pixel Art Converter. We'll get back to you soon."
+          url="https://pixelartland.cc/contact"
+        />
         <div className="max-w-2xl mx-auto px-4 py-8">
           {/* Header */}
           <div className="mb-8">
@@ -99,6 +105,11 @@ const ContactPage: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-purple-50">
+      <SEO
+        title="Contact Us - Pixel Art Converter"
+        description="Get in touch with Pixel Art Converter. We're here to help with your pixel art conversion needs."
+        url="https://pixelartland.cc/contact"
+      />
       <div className="max-w-2xl mx-auto px-4 py-8">
         {/* Header */}
         <div className="mb-8">

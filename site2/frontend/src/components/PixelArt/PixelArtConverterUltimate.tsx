@@ -4,8 +4,8 @@
  * 单文件实现，不超过15KB，毫秒级响应
  */
 
-import React, { useState, useCallback, useRef, useEffect, useMemo } from 'react'
-import { Upload, Download, Settings, Eye, Palette, Copy, Gamepad2, RefreshCw } from 'lucide-react'
+import React, { useState, useCallback, useRef, useEffect } from 'react'
+import { Upload, Download, Gamepad2 } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
 // ============= 优化的类型定义 =============
@@ -75,7 +75,6 @@ const processOriginalPixelMode = (
   canvas: HTMLCanvasElement,
   params: PixelArtParams
 ): string => {
-  const ctx = canvas.getContext('2d')!
   const { width, height } = canvas
   const pixelSize = params.pixelSize
   
@@ -187,7 +186,6 @@ const processIsolatedPixelMode = (
   canvas: HTMLCanvasElement,
   params: PixelArtParams
 ): string => {
-  const ctx = canvas.getContext('2d')!
   const { width, height } = canvas
   const pixelSize = params.pixelSize
   
@@ -303,7 +301,7 @@ const processEnhancedPixelMode = (
   const preCtx = preCanvas.getContext('2d')!
   preCanvas.width = preWidth
   preCanvas.height = preHeight
-  preCtx.drawImage(canvas, 0, 0, preWidth, preHeight)
+  preCtx.drawImage(workingCanvas, 0, 0, preWidth, preHeight)
   
   // 步骤3：双边滤波去纹理
   applyBilateralFilter(preCtx, preWidth, preHeight, params.edgeDensity)
@@ -618,7 +616,6 @@ const applyCannyEdgeDetection = (canvas: HTMLCanvasElement, edgeDensity: string)
 
 // 形态学膨胀/开闭运算
 const applyMorphologicalOperations = (edgeCanvas: HTMLCanvasElement, edgeDensity: string): HTMLCanvasElement => {
-  const ctx = edgeCanvas.getContext('2d')!
   const { width, height } = edgeCanvas
   
   // 根据边缘密度设置膨胀核大小（强化描边效果）
@@ -819,7 +816,7 @@ const processToPixelArt = async (
 // ============= 主组件 =============
 
 const PixelArtConverterUltimate: React.FC = () => {
-  const { t, i18n } = useTranslation()
+  const { t } = useTranslation()
   
   // 默认展示图片
   const DEFAULT_DEMO_IMAGE = DEFAULT_DEMO_ORIGINAL // 使用高质量古桥图片作为默认演示
@@ -1102,7 +1099,7 @@ const PixelArtConverterUltimate: React.FC = () => {
                   <button
                     onClick={() => updateParam('pixelSize', 3)}
                     className={`px-2 py-1 text-xs font-medium rounded transition-all duration-200 ${
-                      Math.abs(params.pixelSize - 3) <= 2
+                      params.pixelSize <= 4
                         ? 'bg-blue-600 text-white shadow-sm'
                         : 'bg-gray-200 hover:bg-gray-300 text-gray-700'
                     }`}
@@ -1112,7 +1109,7 @@ const PixelArtConverterUltimate: React.FC = () => {
                   <button
                     onClick={() => updateParam('pixelSize', 6)}
                     className={`px-2 py-1 text-xs font-medium rounded transition-all duration-200 ${
-                      Math.abs(params.pixelSize - 6) <= 2
+                      params.pixelSize >= 5 && params.pixelSize <= 7
                         ? 'bg-blue-600 text-white shadow-sm'
                         : 'bg-gray-200 hover:bg-gray-300 text-gray-700'
                     }`}
@@ -1122,7 +1119,7 @@ const PixelArtConverterUltimate: React.FC = () => {
                   <button
                     onClick={() => updateParam('pixelSize', 9)}
                     className={`px-2 py-1 text-xs font-medium rounded transition-all duration-200 ${
-                      Math.abs(params.pixelSize - 9) <= 2
+                      params.pixelSize >= 8 && params.pixelSize <= 10
                         ? 'bg-blue-600 text-white shadow-sm'
                         : 'bg-gray-200 hover:bg-gray-300 text-gray-700'
                     }`}
@@ -1132,7 +1129,7 @@ const PixelArtConverterUltimate: React.FC = () => {
                   <button
                     onClick={() => updateParam('pixelSize', 12)}
                     className={`px-2 py-1 text-xs font-medium rounded transition-all duration-200 ${
-                      Math.abs(params.pixelSize - 12) <= 2
+                      params.pixelSize >= 11 && params.pixelSize <= 13
                         ? 'bg-blue-600 text-white shadow-sm'
                         : 'bg-gray-200 hover:bg-gray-300 text-gray-700'
                     }`}
@@ -1142,7 +1139,7 @@ const PixelArtConverterUltimate: React.FC = () => {
                   <button
                     onClick={() => updateParam('pixelSize', 15)}
                     className={`px-2 py-1 text-xs font-medium rounded transition-all duration-200 ${
-                      Math.abs(params.pixelSize - 15) <= 2
+                      params.pixelSize >= 14
                         ? 'bg-blue-600 text-white shadow-sm'
                         : 'bg-gray-200 hover:bg-gray-300 text-gray-700'
                     }`}
