@@ -17,8 +17,18 @@ const SEO: React.FC<SEOProps> = ({
   description = 'Convert images to pixel art with 4 pixelation modes, adjustable colors (4-256), and real-time preview. Export PNG/JPG for games and retro art.',
   keywords = '',
   image = '/og-image.jpg',
-  url = window.location.href,
+  url,
 }) => {
+  // 生成标准化的 canonical URL（移除 www 子域名）
+  const getCanonicalUrl = () => {
+    if (url) return url
+    
+    const currentUrl = window.location.href
+    // 将 www.pixelartland.cc 标准化为 pixelartland.cc
+    return currentUrl.replace('://www.', '://')
+  }
+  
+  const canonicalUrl = getCanonicalUrl()
   useEffect(() => {
     // 设置页面标题
     document.title = title
@@ -32,7 +42,7 @@ const SEO: React.FC<SEOProps> = ({
       
       // Open Graph / Facebook
       { property: 'og:type', content: 'website' },
-      { property: 'og:url', content: url },
+      { property: 'og:url', content: canonicalUrl },
       { property: 'og:title', content: title },
       { property: 'og:description', content: description },
       { property: 'og:image', content: image },
@@ -40,7 +50,7 @@ const SEO: React.FC<SEOProps> = ({
       
       // Twitter
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:url', content: url },
+      { name: 'twitter:url', content: canonicalUrl },
       { name: 'twitter:title', content: title },
       { name: 'twitter:description', content: description },
       { name: 'twitter:image', content: image },
@@ -75,7 +85,7 @@ const SEO: React.FC<SEOProps> = ({
       canonical.rel = 'canonical'
       document.head.appendChild(canonical)
     }
-    canonical.href = url
+    canonical.href = canonicalUrl
 
     // 设置语言
     document.documentElement.lang = 'en'
@@ -84,7 +94,7 @@ const SEO: React.FC<SEOProps> = ({
     return () => {
       // 在组件卸载时不需要清理，因为这些是页面级别的设置
     }
-  }, [title, description, keywords, image, url])
+  }, [title, description, keywords, image, canonicalUrl])
 
   // 这个组件不渲染任何内容
   return null
